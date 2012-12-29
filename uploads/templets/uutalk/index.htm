@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link href="{dede:global.cfg_templets_skin/}/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+
+<link href="{dede:global.cfg_templets_skin/}/css1/home.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" type="image/x-icon" href="{dede:global.cfg_templets_skin/}/images1/favicon.ico" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js1/index.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js1/jquery.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js1/Tab.js" ></script>
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_cmsurl/}/include/dedeajax2.js"></script>
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_cmspath/}/images/js/j.js" ></script>
+
+<script language="javascript" type="text/javascript">
+<!--
+	$(function(){
+		$("a[_for]").mouseover(function(){
+			$(this).parents().children("a[_for]").removeClass("thisclass").parents().children("dd").hide();
+			$(this).addClass("thisclass").blur();
+			$("#"+$(this).attr("_for")).show();
+		});
+		$("a[_for=uc_member]").mouseover();
+		$("a[_for=flink_1]").mouseover();
+	});
+	
+	function CheckLogin(){
+	  var taget_obj = document.getElementById('_userlogin');
+	  myajax = new DedeAjax(taget_obj,false,false,'','','');
+	  myajax.SendGet2("{dede:global.cfg_cmspath/}/member/ajax_loginsta.php");
+	  DedeXHTTP = null;
+	}
+-->
+</script>
+</head>
+<body class="index">
+{dede:include filename="head.htm"/}
+<!-- /header -->
+<div class="w960 center clear mt1">
+<div class="h_1">
+<div class="h_1_1"></div>
+<div class="h_1_2">
+<!--<div class="h_dh">
+<div class="h_dh_t">快速导航</div>
+<div class="h_dh_l">
+<ul>
+{dede:type typeid='29'}
+<li><a href="[field:typeurl/]" title="软件电话" class="d_ico">软件电话</a></li>
+{/dede:type}
+<li><a href="/alicall-mobile/" title="手机网络电话" class="m_ico">手机拨打</a></li>
+<li><a href="/vip/" title="最新活动" class="n_ico">最新活动</a></li>
+<li><a href="/buyonline.htm" title="帐号充值" class="b_ico">帐号充值</a></li>
+<li><a href="/rate/" title="资费说明" class="r_ico">资费说明</a></li>
+{dede:type typeid='30'}
+<li><a href="[field:typeurl/]" title="常见问题" target="_blank" class="h_ico">常见问题</a></li>
+{/dede:type}
+</ul>
+</div>
+</div>-->
+<div class="flashnews" style="margin-top:12px">
+   <!-- size: 280px * 192px -->
+   <script language='javascript'>
+linkarr = new Array();
+picarr = new Array();
+textarr = new Array();
+var swf_width=672;
+var swf_height=180;
+//文字颜色|文字位置|文字背景颜色|文字背景透明度|按键文字颜色|按键默认颜色|按键当前颜色|自动播放时间|图片过渡效果|是否显示按钮|打开方式
+var configtg='0xffffff|2|0x3FA61F|5|0xffffff|0xC5DDBC|0x000033|2|3|1|_blank';
+var files = "";
+var links = "";
+var texts = "";
+//这里设置调用标记
+{dede:arclist flag='f' row='5'}
+linkarr[[field:global.autoindex/]] = "[field:arcurl/]";
+picarr[[field:global.autoindex/]]  = "[field:litpic/]";
+textarr[[field:global.autoindex/]] = "[field:title function='html2text(@me)'/]";
+{/dede:arclist}
+for(i=1;i<picarr.length;i++){
+if(files=="") files = picarr[i];
+else files += "|"+picarr[i];
+}
+for(i=1;i<linkarr.length;i++){
+if(links=="") links = linkarr[i];
+else links += "|"+linkarr[i];
+}
+for(i=1;i<textarr.length;i++){
+if(texts=="") texts = textarr[i];
+else texts += "|"+textarr[i];
+}
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">');
+document.write('<param name="movie" value="{dede:global.cfg_templeturl /}/default/images/bcastr3.swf"><param name="quality" value="high">');
+document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+document.write('<param name="FlashVars" value="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'">');
+document.write('<embed src="{dede:global.cfg_templeturl /}/default/images/bcastr3.swf" wmode="opaque" FlashVars="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'&menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); 
+document.write('</object>');
+</script>
+  </div>
+  <!--flashnews-->
+  <div class="h_d">
+<div class="win"><a href="/shownew/113/" target="_blank" title="阿里通和微软联合推出网络短信平台"></a></div>
+{dede:arclist row='1' channelid='3'}
+<div class="dows"><a href="[field:arcurl/]" title="立即下载" style="text-align:center;">下载注册，最高<span>赠送100分钟</span>话费</a></div>
+{/dede:arclist}
+</div>
+</div>
+<!--h_1_2-->
+
+<div class="h_1_3"></div>
+</div>
+        <!--h_1-->
+ <div class="pleft">
+        
+        
+ <div class="h_2">
+<!-- <div class="h_news">
+<div class="n_l_t">
+<ul class="news_tab" id="news_tab">
+<li class="liOn" onmouseover="selectNewsTab('newsCont0', this)"><a href="/news/1/" target="_blank">官方公告</a></li>
+<li onmouseover="selectNewsTab('newsCont1', this)"><a href="/news/2/" target="_blank" class="midd">媒体报道</a></li>
+</ul>
+</div>
+<div class="n_l_l">
+<div class="news_cont" id="newsCont0">
+<ul>
+
+<li><a style="color:#0086CE" href="/shownew/327/"></a></li>
+<li><a href="/shownew/413/"></a></li>
+<li><a href="/shownew/275/"></a></li>
+<li><a href="/shownew/84/"></a></li>
+<li><a href="/shownew/145/" ></a></li>
+<li><a href="/shownew/349/"></a></li>
+<li><a href="/shownew/141/"></a></li>
+<li><a href="/shownew/180/"></a>
+</ul>   
+</div>
+<div class="news_cont" id="newsCont1" style="display:none;">
+<ul>
+<li><a href="/shownew/517/"></a></li>
+<li><a href="/shownew/516/"></a></li>
+<li><a href="/shownew/515/"></a></li>
+<li><a href="/shownew/514/"></a></li>
+<li><a href="/shownew/513/"></a></li>
+<li><a href="/shownew/512/"></a></li>
+<li><a href="/shownew/511/"></a></li>
+<li><a href="/shownew/510/"></a></li>
+</ul>  
+</div>
+</div>
+</div>-->
+<div class="h_boda">
+<ul>
+<li class="h_boda_d"><a href="/download/" title="电脑拨打电话"><br />&#160;&#160;&#160;&#160;电脑安装好阿里通软件，您就可以通过电脑拨打国内、国际任何一部固话和手机，资费比用传统电话拨打<span style="color:#F7941C">便宜5到10倍</span>。<br/><br/><span style="color:#2BBBF7"><b>您还可以</b><br/>在电脑上收发手机短信，备份通信录等...</span></a></li>
+<li class="h_boda_m"><a href="/alicall-mobile/" title="手机网络电话"><br />&#160;&#160;&#160;&#160;在手机上运行阿里通，<span style="color:#F7941C">随时随地畅享</span>廉价、高质量的语音服务，轻松呼叫世界上任何一部固话和手机，畅所欲言...<br/><span style="color:#2BBBF7"><b>您还可以</b><br/>很方便的备份手机通讯录到服务器，再也不怕手机丢失后找不到联系人了..</span></a></li>
+<!--<li class="h_boda_y"><a href="http://shop.alicall.com/yingjian/" title="硬件网络电话"><br />&#160;&#160;&#160;&#160;如果在电脑上拨打，但不想使用耳麦，那可以使用USB话机，拨号更方便，<span style="color:#F7941C">语音更清晰</span>..<br/><br/><span style="color:#2BBBF7"><b>如果不想</b><br/>用电脑拨打，可使用语音网关，接上网线就能打电话，没有电脑也不怕..</span></a></li>-->
+</ul>
+</div>	
+</div>
+<!--h_2-->
+<div class="h_jiage">
+<div class="h_jg_t">
+<ul class="sub_tab" id="sub_tab">
+<li class="liOn" onmouseover="selectProTab('subCont0', this)"><a href="/buyonline.htm">充值大优惠</a></li>
+<li onmouseover="selectProTab('subCont1', this)"><a href="http://shop.alicall.com/plist/289" target="_blank">包月卡优惠</a></li>
+<li onmouseover="selectProTab('subCont2', this)"><a href="http://shop.alicall.com/plist/299" target="_blank">时段卡优惠</a></li>
+</ul>
+<span>好消息：<a href="http://shop.alicall.com/vip/"  target="_blank">充值U币再多送U币，还能升级VIP会员！</a></span>
+</div>
+<div class="h_jg_l">
+<div class="sub_cont" id="subCont0">
+<table class="warp_table" id="cz_table"  cellspacing="0" > 
+  <tr> 
+    <th>充值金额</th> 
+    <th>赠送金额</th> 
+    <th>折合费率</th> 
+    <th>相关操作</th> 
+  </tr> 
+ {dede:arclist addfields='zsje,thsc,zhfl' row='4' flag='cz' channelid='6' } 
+ <tr> 
+    <td ><a href="[field:arcurl/]" target="_blank">[field:title/]</a></td> 
+    <td><span class="STYLE2">[field:zsje/]</span></td> 
+    <td><span class="STYLE2">[field:zhfl/]</span></td> 
+    <td><a class="czyes" href="http://localhost/a/woyaochongzhi/2012/1129/63.html" target="_self">立即充值</a></td> 
+  </tr>  
+{/dede:arclist}
+ 
+ 
+  
+  
+  <tr> 
+    <th colspan="4"  class="tabzi"><span>标准卡支持国内国际长途、收发短信、手机版等所有功能。有效期为充值后360天。<a  style="color:#0284FD" href="/help/showhelp-24.html" target="_blank">查看详情</a></span></th> 
+    </tr>   
+</table>
+</div>
+<div class="sub_cont" id="subCont1" style="display:none;">
+<table class="warp_table"  id="bw_table" cellspacing="0" > 
+  <tr> 
+    <th>名称</th>
+    <th>会员价格</th> 
+    <th>通话时长</th>
+	<th>折合费率</th>  
+	<th>相关操作</th> 
+  </tr>
+ 
+{dede:arclist addfields='zsje,trueprice,thsc,zhfl' row='4' flag='by' channelid='6'} 
+  <tr>
+    <td> <a href="[field:arcurl/]" target="_blank">  [field:title/]</a> </td>
+    <td>￥[field:trueprice/]</td>
+	<td>[field:thsc/]</td>
+	<td><span class="STYLE2">[field:zhfl/]</span></td>  
+    <td><a class="czyes" href="http://localhost/a/woyaochongzhi/2012/1129/63.html" target="_blank">立即充值</a></td> 
+  </tr> 
+  {/dede:arclist}
+
+
+ 
+ 
+ <tr> 
+    <th colspan="5"  class="tabzi"><span>包月卡为账号卡，不能用来充值，月卡有效期30天，季卡90天，年卡360天。<a  style="color:#0284FD" href="/help/showhelp-25.html" target="_blank">查看详情</a></span></th> 
+    </tr>   
+</table>
+</div>
+<div class="sub_cont" id="subCont2" style="display:none;">
+<table class="warp_table" id="sd_table" cellspacing="0" > 
+  <tr> 
+    <th>充值金额</th> 
+    <th>赠送金额</th> 
+    <th>折合费率</th> 
+    <th>相关操作</th> 
+  </tr> 
+{dede:arclist addfields='zsje,thsc,zhfl' row='4' flag='sd' channelid='6'}  
+  <tr>
+    <td ><a href="[field:arcurl/]" target="_blank">[field:title/]</a></td> 
+    <td><span class="STYLE2">[field:zsje/]</span></td> 
+    <td><span class="STYLE2">[field:zhfl/]</span></td> 
+    <td><a class="czyes" href="http://localhost/a/woyaochongzhi/2012/1129/63.html" target="_blank"  >立即充值</a></td> 
+  </tr> 
+{/dede:arclist}
+ 
+
+  
+  <tr> 
+    <th colspan="4"  class="tabzi"><span>时段卡只能在每天的00:00 至 18:00时间段内使用，只能拨打中国大陆，时段卡每分钟0.08元，有效期30天。<a  style="color:#0284FD" href="/help/showhelp-185.html" target="_blank">查看详情</a></span></th> 
+    </tr>       
+</table>
+</div>
+</div>
+</div>
+<!--h_jiage-->
+  </div>
+ <!-- /pleft -->
+ <div class="pright">
+    <!--<div class="usercenter">
+   <dl class="tbox light">
+    <dt class='light'> <strong>互动中心</strong> <span class="label"> <a href="#" _for="uc_digg">踩踩</a> <a href="#" _for="uc_comment">评论</a> <a href="#" _for="uc_member">会员</a> </span> </dt>
+    <dd id="loading"> 正在载入,请稍候... </dd>
+    <dd id="uc_digg">
+     <ul class="f1">
+      {dede:arclist orderby='scores' row='8' subday='30' titlelen='42'}
+      <li> <a href="[field:arcurl/]">[field:title/]</a> <span><small>点击:</small>[field:click/]</span> <span><small>评价:</small>[field:scores/]</span></li>
+      {/dede:arclist}
+     </ul>
+    </dd>
+    
+    <dd id="uc_comment">
+     <ul class="f2">
+      {dede:feedback row='5' titlelen='24' infolen='80'}
+      <li> <small><a href="#" class="username">[field:username function="(@me=='guest' ? '游客' : @me)"/]</a> 评论 <a href="[field:global.cfg_phpurl/]/feedback.php?aid=[field:aid/]" class="title">[field:title/]</a></small>
+       <p>[field:msg/]</p>
+      </li>
+      {/dede:feedback}
+     </ul>
+    </dd>
+    
+    <dd id="uc_member" >
+     <div id="_userlogin">
+      <div class="userlogin">
+       <form name="userlogin" action="{dede:global.cfg_memberurl/}/index_do.php" method="POST">
+        <input type="hidden" name="fmdo" value="login" />
+        <input type="hidden" name="dopost" value="login" />
+        <input type="hidden" name="keeptime" value="604800" />
+        <div class="fb"><span>用户名:</span>
+         <input type="text" name="userid" size="20" class="ipt-txt" />
+        </div>
+        <div class="fb"><span>密码:</span>
+         <input type="password" name="pwd" size="20" class="ipt-txt" />
+        </div>
+        {dede:php}
+        if(preg_match("#2#", $safe_gdopen))
+        {
+        echo '
+        <div class="fb"><span>验证码:</span>
+         <input type="text" name="vdcode" size="8" class="ipt-txt" />
+         <img id="vdimgck" align="absmiddle" onClick="this.src=this.src+\'?\'" style="cursor:pointer;margin-left:0px;text-transform:uppercase;" alt="看不清？点击更换" src="'.$cfg_cmspath.'/include/vdimgck.php"/></div>
+        ';
+        }
+        {/dede:php}
+        <div class="submit">
+         <button type="submit" class="btn-1">登录</button>
+         <a href="{dede:global.cfg_memberurl/}/index_do.php?fmdo=user&dopost=regnew" >注册帐号</a> <a href="{dede:global.cfg_memberurl/}/resetpassword.php">忘记密码?</a> </div>
+       </form>
+      </div>
+     </div>
+     
+     <script language="javascript" type="text/javascript">CheckLogin();</script>
+     <div class="latestlogin"> <strong>最近登陆的会员</strong>
+      <ul class="e7">
+       {dede:memberlist row=6 signlen=30}
+       <li><a href="[field:spaceurl/]" target="_blank"><img src="[field:face/]" alt='[field:spacename/]' width="52" height="52" />[field:uname/]</a></li>
+       {/dede:memberlist}
+      </ul>
+     </div>
+     
+    </dd>
+    
+   </dl>
+  </div>-->
+  <!-- /usercenter -->
+   
+<!---h_d-->
+
+<div class="h_buyonline">
+<div class="h_b_t"><span><a href="{dede:global.cfg_basehost/}/a/woyaochongzhi/2012/1129/63.html">在线充值</a></span><p><a href="{dede:global.cfg_basehost/}/a/woyaochongzhi/2012/1129/63.html" title="更多"></a></p></div>
+<ul>
+<li><a href="{dede:global.cfg_basehost/}/a/woyaochongzhi/2012/1129/63.html" title="中国银联充值"></a></li>
+<li><a href="{dede:global.cfg_basehost/}/a/woyaochongzhi/2012/1129/63.html" title="神州行充值"></a></li>
+<!--<li><a href="{dede:global.cfg_basehost/}/a/woyaochongzhi/2012/1129/63.html" title="游戏卡充值"></a></li>-->
+<!--<li><a href="{dede:global.cfg_basehost/}/a/woyaochongzhi/2012/1129/63.html" title="财付通充值"></a></li>-->
+<!--<li><a href="{dede:global.cfg_basehost/}/a/woyaochongzhi/2012/1129/63.html" title="固定电话充值"></a></li>-->
+<!--<li><a href="{dede:global.cfg_basehost/}/a/woyaochongzhi/2012/1129/63.html" title="网吧购买"></a></li>-->
+<!--<li><a href="{dede:global.cfg_basehost/}/a/woyaochongzhi/2012/1129/63.html" title="联通充值卡支付"></a></li>-->
+<li><a href="{dede:global.cfg_basehost/}/a/woyaochongzhi/2012/1129/63.html"  title="支付宝购买"></a></li>
+</ul>
+</div>	
+<!--buyonline-->
+<div class="h_wenti">
+<div class="h_wt_t">
+{dede:type typeid='30'}
+<span><a href="[field:typeurl/]">常见问题</a></span><p><a href="[field:typeurl/]" title="更多"></a></p>
+{/dede:type}
+</div>
+<div class="h_wt_l">
+<ul>
+{dede:arclist row='5' typeid='30'}
+<li><a target="_blank"  href="[field:arcurl/]">[field:title/]</a> </li>
+{/dede:arclist}
+<!--<li><a  href="http://www.alicall.com/buyonline.htm">如何给我的阿里通账号充值？</a> </li>-->
+</ul>
+</div>
+</div>
+<!--h_wenti-->
+<div class="h_kf">
+<div class="h_contact"><a href="/contact.htm" title="联系我们"></a></div>
+
+</div>
+<!--h_kf-->
+ </div>
+ <!-- /pright -->
+</div>
+<!--w960 cneter clear mt1-->
+<div class="flink w960 center clear">
+ <dl class="tbox">
+  <dt> <strong>友情链接</strong>
+	<span class="linklabel">
+            {dede:flinktype }
+            <a href="#" _for="flink_[field:id/]" >[field:typename/]</a> 
+            {/dede:flinktype}
+            </span>
+	<span class="more"> <a href="plus/flink.php">所有链接</a> | <a href="plus/flink_add.php">申请加入</a> </span> </dt>
+  {dede:flinktype }
+  <dd id="flink_[field:id/]">
+    <ul class="f5">
+		{dede:flink/}
+    </ul>
+  </dd>
+    {/dede:flinktype}
+ </dl>
+</div>
+<!-- /flink -->
+<!--<div id="footAD" style="margin:10px auto; width:726px">{dede:myad name='indexfooterAD'/}</div>-->
+{dede:include filename="footer.htm"/}
+<!-- /footer -->
+</body>
+</html>

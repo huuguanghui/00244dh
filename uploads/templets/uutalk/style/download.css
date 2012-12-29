@@ -1,0 +1,38 @@
+.maindown{ width:949px; margin-top:8px; margin-bottom:14px}
+.download_gg{ width:949px; height:142px; background:url(http://210.83.225.5/alicall2010/images/download_gg.jpg) no-repeat}
+.down_di1{ width:949px; height:235px}
+.down_left{ width:290px; height:235px; float:left; background:url(http://210.83.225.5/alicall2010/images/download_gg_left.gif) no-repeat}
+.down_right{ height:235px; float:right; width:659px}
+.down_r_1{ width:659px; height:58px; background:url(http://210.83.225.5/alicall2010/images/download_gg_right1.gif) no-repeat}
+.down_r_2{ width:659px; height:98px; background:url(http://210.83.225.5/alicall2010/images/download_gg_right2.gif) no-repeat}
+.down_r_3{ width:659px; height:79px; background:url(http://210.83.225.5/alicall2010/images/download_gg_right3.gif) no-repeat}
+.down_r_di{ width:217px; height:98px; float:left; margin-right:61px}
+.down_an{ width:217px; height:47px}
+.down_zi{ width:217px; height:26px; background: url(http://210.83.225.5/alicall2010/images/pc_timedi.gif) no-repeat; color:#484944; line-height:21px; margin-top:2px}
+.down_zi2{ width:217px; height:26px; background: url(http://210.83.225.5/alicall2010/images/Phone_timedi.gif) no-repeat; color:#484944; line-height:21px; margin-top:2px}
+.downr_3di{ height:21px; width:600px; padding-top:3px; padding-left:4px}
+.downr_3di2{ height:21px; width:600px; padding-top:6px; padding-left:4px}
+.down_tab{  width:107px; border:1px solid #FFD75B; background:#FEF7C1; float:left; text-align:center; font-size:14px; margin:0; padding-top:0px;* padding-top:4px!important; *padding-top:4px}
+.tab_zi{ float:left; font-size:12px; color:#B16F01; padding:3px 8px 0px 10px; *padding:5px 8px 0px 10px!important; *padding:5px 8px 0px 10px}
+.tab_zi a:link{ color:#B26E00;text-decoration: none;}
+.tab_zi a:visited{color:#B26E00;}
+.tab_zi a:hover{color:#0284FD; text-decoration: none;}
+.down_di2{ width:949px; background:url(http://210.83.225.5/alicall2010/images/download_bg.gif)}
+.down_di3{ width:830px; padding-top:25px}
+.down_di4{ width:405px; height:82px; margin-bottom:14px;}
+.down_di5{ width:405px; height:82px; }
+.down_gndi{ width:405px; height:82px;cursor:pointer}
+.down_gndi2{ width:405px; height:82px; }
+.down_di2 img{ float:left; margin:8px}
+.down_di2 dt {float: left;width: 320px;margin: 0px;padding: 0px; font-size:14px; font-weight:bold; color:#0092DA}
+.down_di2 dt img{ float:left; margin-top:8px; margin-left:0; padding:0}
+.down_di2 dt span{ line-height:28px; float:left}
+.down_di2 dd {float: left;clear: none;width: 320px;margin: 0px;padding: 0px;}
+.down_di2 dl {width: 320px;font-size: 9pt;line-height:17px;position:relative;margin: 0px;padding: 0px; text-align: left; float:left}
+.down_di2 a{display:block; width:405px; height:82px; cursor:pointer}
+.down_di2 a:hover{background-color:#F3FDFF;text-decoration: underline; color:#00A6F3}
+html,body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,object,iframe,form,blockquote,fieldset,input,textarea,code,address,caption,cite,code,em,i,ins{margin:0;padding:0;font-style:normal;font-size:12px;}
+ul,ol,dl,dt,dd{list-style:none; margin:0; padding:0 }
+.down_gndi_left{ width:405px;float:left}
+.down_gndi_right{ width:405px;float: right}
+.onBg{ background:#F3FDFF;}

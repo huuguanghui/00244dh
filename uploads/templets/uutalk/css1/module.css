@@ -1,0 +1,191 @@
+
+.header2010{width:100%; margin:0; padding:0;height:79px}
+.top-di2{width:100%; height:79px; background:url(http://58.251.64.15/alicall2010/images//top_di_1122.gif) repeat-x; margin:0; padding:0}
+.top-neirong2{width:929px; height:79px;margin:0; padding-right:20px}
+DIV#MainPromotionBanner {BACKGROUND: #feb900; WIDTH: 477px; HEIGHT: 180px}
+#MainPromotionBanner #SlidePlayer {MARGIN: 0; padding:0; POSITION: relative}
+#MainPromotionBanner .Slides {PADDING:0; MARGIN: 0px; OVERFLOW: hidden;  LIST-STYLE-TYPE: none; HEIGHT: 180px}
+#MainPromotionBanner .Slides LI {FLOAT: left; WIDTH: 477px; HEIGHT: 180px}
+#MainPromotionBanner .Slides IMG { DISPLAY: block; WIDTH: 477px; border:0; HEIGHT: 180px}
+#MainPromotionBanner .SlideTriggers { Z-INDEX: 10; RIGHT: 0px; padding:0; MARGIN: 0px; LIST-STYLE-TYPE: none; POSITION: absolute; TOP: 156px; HEIGHT: 25px}
+#MainPromotionBanner .SlideTriggers LI {DISPLAY: inline; FONT-SIZE: 0.9em; BACKGROUND: url(http://58.251.64.15/alicall2008/images/slide_trigger.gif) no-repeat center center; FLOAT: left; MARGIN: 3px 6px; OVERFLOW: hidden; WIDTH: 16px; CURSOR: pointer; COLOR: #74a8ed; LINE-HEIGHT: 16px; FONT-FAMILY: Arial; HEIGHT: 16px; TEXT-ALIGN: center}
+#MainPromotionBanner .SlideTriggers LI.Current {BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 1.4em; BACKGROUND: url(http://58.251.64.15/alicall2008/images/slide_trigger_c.gif) no-repeat center center; MARGIN: 0px 5px; BORDER-LEFT: 0px; WIDTH: 21px; COLOR: #fff; LINE-HEIGHT: 21px; BORDER-BOTTOM: 0px; HEIGHT: 21px}
+DIV#MainPromotionBanner1 {BACKGROUND: #feb900; WIDTH: 710px; HEIGHT: 70px}
+#MainPromotionBanner1 #SlidePlayer1 {MARGIN: 0px auto; POSITION: relative}
+#MainPromotionBanner1 .Slides {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; HEIGHT: 70px}
+#MainPromotionBanner1 .Slides LI {FLOAT: left; WIDTH: 710px; HEIGHT: 70px}
+#MainPromotionBanner1 .Slides IMG {BORDER-RIGHT: 0px; BORDER-TOP: 0px; DISPLAY: block; BORDER-LEFT: 0px; WIDTH: 710px; BORDER-BOTTOM: 0px; HEIGHT: 70px}
+#MainPromotionBanner1 .SlideTriggers {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; Z-INDEX: 10; RIGHT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; POSITION: absolute; TOP: 46px; HEIGHT: 25px}
+#MainPromotionBanner1 .SlideTriggers LI {DISPLAY: inline; FONT-SIZE: 0.9em; BACKGROUND: url(http://58.251.64.15/alicall2008/images/slide_trigger.gif) no-repeat center center; FLOAT: left; MARGIN: 3px 6px; OVERFLOW: hidden; WIDTH: 16px; CURSOR: pointer; COLOR: #74a8ed; LINE-HEIGHT: 16px; FONT-FAMILY: Arial; HEIGHT: 16px; TEXT-ALIGN: center}
+#MainPromotionBanner1 .SlideTriggers LI.Current {BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 1.4em; BACKGROUND: url(http://58.251.64.15/alicall2008/images/slide_trigger_c.gif) no-repeat center center; MARGIN: 0px 6px; BORDER-LEFT: 0px; WIDTH: 21px; COLOR: #fff; LINE-HEIGHT: 21px; BORDER-BOTTOM: 0px; HEIGHT: 21px}
+.toplogo_di{ width:122px; height:79px;  float:left; }
+.mainindex{ width:961px; margin-top:8px; margin-bottom:14px}
+.mainindex .nav{width:961px; height:206px; background:url(http://58.251.64.15/alicall2010/images//topnav_di_1122.gif)}
+.mainindex .nav_left{ width:10px; height:206px; background:url(http://58.251.64.15/alicall2010/images//topnav_left_1122.gif) no-repeat; float:left}
+.mainindex .nav_1{ width:225px; height:180px; float:left; margin-top:11px}
+.mainindex .nav_2{ width:477px; height:180px; float:left; margin-top:11px}
+.mainindex .nav_right{ width:241px; height:206px; float:right; background:url(http://58.251.64.15/alicall2010/images//topnav_right_1122.gif) no-repeat}
+.mainindex .nav_bt{ width:225px; height:28px; background:url(http://58.251.64.15/alicall2010/images//topnav_bt_1122.gif)}
+.mainindex .nav_di{ width:225px; height:62px; margin-top:14px}
+.mainindex .nav_di_1{ width:67px; height:62px; margin:0px 5px 0px 2px; *margin:0px 5px 0px 2px!important;*margin:0px 5px 0px 1px;float:left; background-image:url(http://58.251.64.15/alicall2010/images//top_icon_1122.gif); background-position:0px 0px;}
+.nav_di  a{display: block; width:67px; height:62px;color:#3E5461}
+.mainindex  .nav_di_1 a:link{ color:#3E5461; text-decoration:none}
+.mainindex  .nav_di_1 visited{ color:#3E5461; text-decoration:none}
+.mainindex  .nav_di_1 a:hover{color: #0082BF; text-decoration:none; background-image: url(http://58.251.64.15/alicall2010/images//top_icon_1122.gif); background-position:0px 62px }
+.mainindex .nav_di_2{ width:67px; height:62px;margin:0px 5px 0px 2px; *margin:0px 5px 0px 2px!important;*margin:0px 5px 0px 1px; float:left;background-image:url(http://58.251.64.15/alicall2010/images//top_icon_1122.gif); background-position:335px 0px}
+.mainindex  .nav_di_2 a:link{ color:#3E5461; text-decoration:none}
+.mainindex  .nav_di_2 visited{ color:#3E5461; text-decoration:none}
+.mainindex  .nav_di_2 a:hover{color: #0082BF; text-decoration:none; background-image: url(http://58.251.64.15/alicall2010/images//top_icon_1122.gif); background-position:335px 62px }
+.mainindex .nav_di_3{ width:67px; height:62px;margin:0px 5px 0px 2px; *margin:0px 5px 0px 2px!important;*margin:0px 5px 0px 1px;float:left;background-image:url(http://58.251.64.15/alicall2010/images//top_icon_1122.gif); background-position:268px 0px}
+.mainindex  .nav_di_3 a:link{ color:#3E5461; text-decoration:none}
+.mainindex  .nav_di_3 visited{ color:#3E5461; text-decoration:none}
+.mainindex  .nav_di_3 a:hover{color: #0082BF; text-decoration:none; background-image: url(http://58.251.64.15/alicall2010/images//top_icon_1122.gif); background-position:268px 62px }
+.mainindex .nav_di_4{ width:67px; height:62px; margin:0px 5px 0px 2px; *margin:0px 5px 0px 2px!important;*margin:0px 5px 0px 1px;float:left;background-image:url(http://58.251.64.15/alicall2010/images//top_icon_1122.gif); background-position:201px 0px}
+.mainindex  .nav_di_4 a:link{ color:#3E5461; text-decoration:none}
+.mainindex  .nav_di_4 visited{ color:#3E5461; text-decoration:none}
+.mainindex  .nav_di_4 a:hover{color: #0082BF; text-decoration:none; background-image: url(http://58.251.64.15/alicall2010/images//top_icon_1122.gif); background-position:201px 62px }
+.mainindex .nav_di_5{ width:67px; height:62px; margin:0px 5px 0px 2px; *margin:0px 5px 0px 2px!important;*margin:0px 5px 0px 1px; float:left;background-image:url(http://58.251.64.15/alicall2010/images//top_icon_1122.gif); background-position:134px 0px}
+.mainindex  .nav_di_5 a:link{ color:#3E5461; text-decoration:none}
+.mainindex  .nav_di_5 visited{ color:#3E5461; text-decoration:none}
+.mainindex  .nav_di_5 a:hover{color: #0082BF; text-decoration:none; background-image: url(http://58.251.64.15/alicall2010/images//top_icon_1122.gif); background-position:134px 62px }
+.mainindex .nav_di_6{ width:67px; height:62px; margin:0px 5px 0px 2px; *margin:0px 5px 0px 2px!important;*margin:0px 5px 0px 1px;float:left;background-image:url(http://58.251.64.15/alicall2010/images//top_icon_1122.gif); background-position:67px 0px}
+.mainindex  .nav_di_6 a:link{ color:#3E5461; text-decoration:none}
+.mainindex  .nav_di_6 visited{ color:#3E5461; text-decoration:none}
+.mainindex  .nav_di_6 a:hover{color: #0082BF; text-decoration:none; background-image: url(http://58.251.64.15/alicall2010/images//top_icon_1122.gif); background-position:67px 62px }
+.navfont{ padding-top:43px;*padding-top:47px!important;*padding-top:47px;}
+.nr_top{width:241px; height:90px}
+.nr_top2{ float:right}
+.nr_di{ padding:26px 0px 0px 20px; color:#666666; line-height:26px; text-align:left}
+.nr_an{ width:186px; height:50px; margin-left:18px}
+.ind_di{ width:946px; margin-top:8px}
+.ind_left{ float:left; width:712px; margin-right:8px}
+.ind_right{ float:left; width:226px}
+.indl_di{ width:712px}
+.indl_di .news{ float:left; width:227px; height:224px;margin:0;overflow:hidden}
+ul,ol,dl,dt,dd{list-style:none; }
+html,body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,object,iframe,form,blockquote,fieldset,input,textarea,code,address,caption,cite,code,em,i,ins{margin:0;padding:0;font-style:normal;font-size:12px;}
+div.tabzone{width:224px;}
+.content{ margin:5px 0px 0px 4px; background:#FFFFFF}
+.hdm01,.hdm02{height:222px;background:#F6FCFF;border:1px solid #C9E1DF;border-top-color:#C9E1DF;}
+.hdm01 h3,.hdm02 h3{height:29px;background: url(http://58.251.64.15/alicall2010/images//h_norepeat.gif) no-repeat 0px -29px;}
+.hdm01 h3 a,.hdm02 h3 a{width:112px;height:29px;line-height:29px;*line-height:32px!important;*line-height:29px;display:block;float:left;color:#333!important;text-align:center;font-weight:normal; text-decoration:none;}
+.hdm01 h3 a.current,.hdm02 h3 a.current{background:url(http://58.251.64.15/alicall2010/images//h_norepeat.gif) no-repeat 0px 0px; font-weight:bold; font-size:13px; text-decoration:none}
+.content ul{ width:215px; height:172px; padding-top:5px;*padding-top:10px!important;*padding-top:10px;float:left;margin:0;text-align: left; list-style:none; background:#FFFFFF}
+.content li{ width:208px; text-align:left; text-indent:0.8em; margin:2px 0px 5px 4px;*margin:3px 0px 5px 4px!important;*margin:3px 0px 5px 4px;background: url(http://58.251.64.15/alicall2010/images//in_news_icon.gif) left 1px no-repeat; line-height:16px ;white-space:nowrap;text-overflow:ellipsis; -o-text-overflow:ellipsis;overflow: hidden;}
+.content a:link{ color: #000000; text-decoration:none}
+.content a:visited{color:#000000; text-decoration:none}
+.content a:hover{color:#0284FD; text-decoration: underline}
+
+.indl_a{ text-align:center; line-height:100px; display: block; width:154px}
+.indl_a a:link{ color:#0284FD;text-decoration: underline}
+.indl_a a:visited{color:#0284FD}
+.indl_a a:hover{color:#FF6E17; text-decoration: underline}
+.indl_b a{ text-align: left; width:154px; height:224px; display:block }
+.indl_bb{ text-align: left; padding:39px 10px 0px 10px;line-height:16px}
+.indl_b a:link{ color:#000000;text-decoration: none; font-weight:100}
+.indl_b a:visited{color:#000000; font-weight:100}
+.indl_b a:hover{color:#000000; text-decoration: none; font-weight:100}
+.indl_b p{ text-align: center; padding:3px 0px 3px 0px; font-weight:bold; color:#1B98D7 }
+.indl_b p a:link{ color:#0284FD;text-decoration: underline; font-weight:100}
+.indl_b p a:visited{color:#0284FD; font-weight:100}
+.indl_b p a:hover{color:#FF6E17; text-decoration: underline; font-weight:100}
+.indl_di2{ width:154px; height:224px; float:left; margin-right:7px  }
+.indl_di3{ width:154px; height:224px; float:left;  margin-right:7px }
+.indl_di4{ width:154px; height:224px; float:left; }
+.indl_di2b{ width:154px; height:224px; float:left; background:url(http://58.251.64.15/alicall2010/images//m_fs_1b_1122.gif); margin-right:7px }
+.indl_di3b{ width:154px; height:224px; float:left; background:url(http://58.251.64.15/alicall2010/images//m_fs_2b_1122.gif); margin-right:7px }
+.indl_di4b{ width:154px; height:224px; float:left; background:url(http://58.251.64.15/alicall2010/images//m_fs_3b_1122.gif)}
+.indr_buy{ width:224px; height:222px; border:1px solid #C7DFDD}
+.indr_buytop{ height:30px; background:url(http://58.251.64.15/alicall2010/images//ht-1122.gif); width:224px}
+.ind_right a:link{ color:#3596C7; text-decoration:none}
+.ind_right a:visited{color:#3596C7; text-decoration:none}
+.ind_right a:hover{color:#3596C7; text-decoration: underline}
+.indr_buytop span{ font-size:13px; font-weight:bold; color:#3596C7; line-height:30px; padding-left:10px; float:left}
+.indr_buytop img{ float:right; width:36px; height:19px; margin-right:8px}
+.indr_buy_di{ height:160px; margin:18px 0px 0px 8px;*margin:18px 0px 0px 8px!important;*margin:10px 0px 0px 8px;}
+.indr_buy_di ul{ float:left; list-style:none; width:210px; height:30px}
+.indr_buy_di li{ width:98px; height:30px; border:1px solid #DFE8EC; }
+.indr_help{width:224px; height:160px; border:1px solid #C7DFDD; margin-top:8px}
+.cont_1{ width:220px; }
+.cont_1 a:link{ color:#4A4A4A; text-decoration:none}
+.cont_1 a:visited{color:#4A4A4A; text-decoration:none}
+.cont_1 a:hover{color:#0284FD; text-decoration: underline}
+.cont_1 ul{ width:220px; padding-top:5px;*padding-top:10px!important;*padding-top:5px;float:left;margin:0;text-align: left; list-style:none}
+.cont_1 li{width:210px;  height:17px; text-align:left; text-indent:0.8em;margin:3px 5px 0px 8px; background:  url(http://58.251.64.15/alicall2010/images//index_1_ico.gif) left 1px no-repeat;white-space:nowrap;text-overflow:ellipsis; -o-text-overflow:ellipsis;overflow: hidden; }
+.Contact_di{ width:222px; height:82px; border:1px solid #C7DFDD; margin-top:8px; *margin-top:9px!important; *margin-top:11px; background:url(http://58.251.64.15/alicall2010/images//in_cont_2_1122.gif)}
+.Contact_di a:link{ color:#000000; text-decoration: underline}
+.Contact_di a:visited{color:#000000}
+.Contact_di a:hover{color:#0284FD; text-decoration: underline}
+.buy_kuang{width:98px; height:30px; float:left;margin:0px 8px 8px 0px}
+.buy_kuang2{width:98px; height:30px; float:left;}
+.inbuild_top{ height:35px; margin-top:8px;*margin-top:8px!important;*margin-top:4px}
+#inbuild_tab { height:30px; padding:0px 0px  8px 0px; width:390px; overflow:hidden;}
+#inbuild_tab img { margin-right:30px;}
+#inbuild_tab ul {list-style-type:none; margin:0; padding:0}
+#inbuild_tab  li { list-style-type:none;display: inline; float:left ;; margin:0; padding:0}
+#inbuild_tab a { display:inline-block; text-align:center; width:113px; height:35px; float:left; margin-right:16px; line-height:27px;color:#fff;font-size: 14px; text-decoration:none}
+#inbuild_tab a:link{ color:#FFFFFF}
+#inbuild_tab a:visited{color:#FFFFFF}
+#inbuild_tab a:hover{color: #FFFF00; font-weight:bold}
+#inbuild_tab .image_qt_1 , #inbuild_tab .image_qt_2{width:113px; margin-right:0px;}
+.image_tf_1 { background-image:url(http://58.251.64.15/alicall2010/images//index_inbuild.gif); background-position:226px 35px}
+.image_tf_2 { background-image:url(http://58.251.64.15/alicall2010/images//index_inbuild.gif); background-position:226px 0px}
+.image_ta_1 { background-image:url(http://58.251.64.15/alicall2010/images//index_inbuild.gif); background-position:113px 35px}
+.image_ta_2 { background-image:url(http://58.251.64.15/alicall2010/images//index_inbuild.gif); background-position:113px 0px}
+.image_cz_1 {background-image:url(http://58.251.64.15/alicall2010/images//index_inbuild.gif);background-position:0px 35px;}
+.image_cz_2 { background-image:url(http://58.251.64.15/alicall2010/images//index_inbuild.gif); background-position:0px 0px}
+.in_table{ margin-top:3px}
+.warp_table {width:100%;padding:0;margin:0;font-size:12px;border-collapse:collapse;border:1px solid #B3E3F9} 
+.warp_table th {color:#666666;border:1px solid #B3E3F9;text-align: center;padding:8px 6px 10px 12px;*padding:11px 6px 10px 12px!important;*padding:11px 6px 10px 12px;background:#EAF7FD} 
+.warp_table th.nobg {border-top:0;border-left:0;border-right:1px solid #B3E3F9;background:none} 
+.warp_table td {border-right:1px solid #B3E3F9;border-bottom:1px solid #B3E3F9;text-align: center;padding:12px 6px 6px 12px;*padding:15px 6px 6px 12px!important;*padding:15px 6px 6px 12px;} 
+.warp_table a:link{ color:#000000; text-decoration:none}
+.warp_table a:visited{color:#000000; text-decoration:none}
+.warp_table a:hover{color:#0284FD; text-decoration: underline}
+.tabzi span{ text-align:left; font-size:12px; font-weight:100; float: left;}
+.tabzi img{ float:left; margin-right:10px; margin-top:-4px ; margin-left:10px}
+.ind_fr{ width:944px; margin-top:8px;  border:1px solid #C5DEDC; background:#F1F7FA; padding-bottom:4px}
+.ind_fr_di{height:23px; background:url(http://58.251.64.15/alicall2010/images//in_a_2_1122.gif)}
+.ind_fr_1{ width:112px; height:23px; background:url(http://58.251.64.15/alicall2010/images//in_a_1_1122.gif); float:left}
+.ind_fr_1 span{ font-size:13px; font-weight:bold; color:#3596C7; line-height:22px; padding-left:20px}
+.ind_fr_2{ width:5px; height:23px; background:url(http://58.251.64.15/alicall2010/images//in_a_3_1122.gif); float:right}
+.ind_fr_di2{ width:937px; background:#FFFFFF; margin-left:4px;color:#656565}
+.ind_fr_di2 ul{list-style-type:none; padding-top:2px; }
+.ind_fr_di2 li{ width:90px;list-style-type:none;display: inline; float:left ; height:17px;margin:5px 0px 4px 0px;* margin:5px 0px 3px 0px!important;*margin:5px 0px 3px 0px;text-align:center; border-right:1px dotted #BCBCBC}
+.ind_fr_di2 a{ color:#656565;display:inline-block; }
+.ind_fr_di2 a:link{ color:#656565; text-decoration:none}
+.ind_fr_di2 a:visited{ color:#656565; text-decoration:none}
+.ind_fr_di2 a:hover{color: #0284FD; text-decoration: underline;  }
+.ind_Footer{ width:944px;height:35px; border:1px solid #3CA3CF; background:#5DBDFF; margin-top:14px; }
+.ind_Footer ul{list-style-type:none; padding-top:6px; padding-left:23px}
+.ind_Footer li{list-style-type:none;display: inline; float:left ; height:17px;margin:5px 2px 4px 6px; padding:0; text-align:center; color:#FFFFFF}
+.Footer-call{ width:720px; height:20px}
+.Footer-call span{ color:#656565; float:left; line-height:22px}
+.Footer-call img{ float:left; margin-left:6px}
+.ind_Footer a{ color:#FFFFFF }
+.ind_Footer a:link{ color:#FFFFFF; text-decoration:none}
+.ind_Footer a:visited{ color:#FFFFFF; text-decoration:none}
+.ind_Footer a:hover{color: #FFFF00; text-decoration: underline;  }
+.clear{clear:both;height:1px;overflow:hidden;}
+#top_r{float:right;padding:0px 8px 0px 10px;text-align:right;}
+#top_r_t{float:right;font-family:Arial, Helvetica, sans-serif;}
+#top_r ul{float:right;}
+#top_r ul li{float:left;background: url(http://58.251.64.15/alicall2010/images//header_tu.gif) no-repeat left -105px;height:24px;padding-left:10px;margin-left:10px;display:inline;}
+#top_r ul li font{font-size:10px;}
+#top_r span{color:#0170DC;background:url(http://58.251.64.15/alicall2010/images//header_tu.gif) no-repeat left 2px;height:24px;line-height:24px;display:block;padding-left:21px;float:right;margin-left:15px;}
+#account_c{width:8px;height:7px;background:url(http://58.251.64.15/alicall2010/images//header_tu.gif) no-repeat left -40px;float:right;margin-left:6px;margin-top:7px;cursor:pointer;margin-right:0px;}
+#index_user{position:absolute;z-index:500;top:51px;right:20px;*right:20px!important;*right:19px;display:none;}
+#index_user_con{border-left:1px solid #46B5FC;border-right:1px solid #46B5FC;background:#E8F7FD;width:94px;height:auto !important;height:86px;min-height:86px;}
+#index_user span#new_myaccount{background: url(http://58.251.64.15/alicall2010/images//index_user_06.jpg) no-repeat left 2px;height:24px;line-height:24px;display:block;padding-left:21px;float:right;}
+#index_user span#new_myaccount a{color:#FC4B07;}
+#account_c_new{width:8px;height:7px;background: url(http://58.251.64.15/alicall2010/images//index_user_09.jpg) no-repeat left;float:right;margin-left:6px;margin-top:6px;*margin-top:6px!important;*margin-top:3px;cursor:pointer;margin-right:0px;margin-right:7px;display:inline;}
+#index_user ul { padding-top:4px; padding-bottom:3px}
+#index_user li{ line-height:21px; padding-left:6px}
+#index_user a:link{ color:#1E98D9; text-decoration:none}
+#index_user a:visited{color:#1E98D9; text-decoration:none}
+#index_user a:hover{color:#FF6E17; text-decoration:none}
+#top_userzone{float:right; padding-top:5px;}
+#top_userzone a:hover{color: #FF0000; text-decoration: underline}
+.Footer2010 {width:100%;height:80px;  margin:0; padding:0}
+.fangshi_di{ float:right; width:477px; }
+

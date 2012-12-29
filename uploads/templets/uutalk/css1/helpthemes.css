@@ -1,0 +1,27 @@
+.sidebar .left_bt{ background-image:url(../images/2010ce_andi.gif); background-position:0px 35px; font-weight:bold}
+.wz_top{ width:711px; height:22px; text-align:left; line-height:21px; color:#808080; padding-top:14px}
+.wz_top .style1{ color:#808080}
+.wz_top .style2{ color:#F57018}
+.wz_bg{ height:2px; width:711px; background:url(../images/2010wz_bg.gif) no-repeat; float:left; font-size:0px;overflow:hidden }
+.leibie{ margin-top:10px; width:700px; text-align:left; font-size:14px}
+.leibie li{width:670px;padding:10px 0px 10px 24px;background: url(../images/2010wz_ico.gif) no-repeat 10px 13px; border-bottom:1px dashed #c8d4d4;  margin-left:5px; text-align:left}
+.leibie  li a{ line-height:0;}
+
+.leibie a:link { color:#3A62D2;text-decoration:none;}
+.leibie a:visited { color: #000000;text-decoration:none; }
+.leibie a:hover { color:#F57018;text-decoration:none;}
+.leibie a:active {color:#F57018;text-decoration:none;}
+
+.help_font{ margin-top:8px}
+.font_top{ width:706px; height:35px; background:url(../images/2010fontbt_di.gif) no-repeat}
+h2{ font-size:14px; font-weight:bold; color:#F57018; padding-top:10px; margin:0}
+.font_time{width:706px; height:34px;border-bottom:1px dotted #B9B9B9;}
+.font_time span{ line-height:36px;color:#808080}
+.font_nr{ font-size:14px; text-align:left; padding:15px 5px}
+.font_nr p{ padding:8px 0px; line-height:18px; margin:0}
+.font_next{ font-weight:bold; color:#008FE1; height:40px;border-bottom:1px dotted #B9B9B9; line-height:30px}
+.font_next .style3{color:#008FE1; font-weight:100}
+.font_tag{margin-top:10px; width:700px; text-align:left}
+.font_tag ul{width:700px;}
+.font_tag li{width:670px; height:22px;line-height:17px; background: url(../images/2010tag_ico.gif) no-repeat 4px 5px; padding-left:16px; margin:0; text-align:left}
+h3{ font-weight:bold; color:#008FE1; font-size:12px; text-align:left; margin:0; padding:6px 2px}

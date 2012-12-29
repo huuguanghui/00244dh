@@ -1,0 +1,48 @@
+
+.swenzi a:link {color: #555;}
+.waikuang-di {border: 1px;border-style: solid;border-color: #C7DFDD;}
+.hengtiao {background: url(Img/ht.gif);height: 29px;margin: 0;padding: 0;}
+.swenzi {font-size: 13px;color: #555;font-weight: bold;float: left;margin-top: 8px;margin-left: 6px;}
+.PageBody{width:949px;margin:0px 0px 0px 0px; padding-bottom:14px; background:#FFFFFF}
+.chongzhi-di{ width:949px;margin-top:6px}
+.cz-di{ width:860px; height:43px; margin-top:10px}
+.cz-di2{ width:795px; height:78px;margin-top:22px;* margin-top:22px!important;*margin-top:0px;}
+.cz-di02{ width:262px; height:78px; margin:0; padding:0; float:left}
+.cz-di002{ width:262px; height:88px; margin:0; padding:0; float:left}
+.cz-id1{ width:27px; height:78px; float:left; margin-top:10px; padding:0}
+.cz-id2{ width:18px; height:46px; float:left; margin:0; padding:0}
+.cz-ka{ width:112px; height:81px; float:left; margin:0; padding:0;  cursor:pointer}
+.cz-zi{ width:98px; height:74px; float:left; margin-left:4px} 
+.cz-di3{ width:860px; height:10px; margin-top:2px; padding:0}
+.hr0{ height:1px;border:none;border-top:1px dashed #B4B9BD;}
+.cz-di4{ width:860px; height:65px; margin:0; padding:0; border-bottom:1px; border-bottom-color:#B4B9BD; border-bottom-style:dashed; border-top:1px; border-top-color:#B4B9BD; border-top-style:dashed}
+.cz-di5{ width:860px; height:150px; margin:0; padding:0}
+.cz-zf{ width:115px; height:46px; margin-right:4px; padding:0; float:left}
+.cz-zf1{ width:89px; height:41px; float:left; border-right:1px #CCCCCC dashed; margin:0; padding:0; background:url(Img/cz-zf01.gif) no-repeat; cursor:pointer}
+.cz-zf2{ width:89px; height:41px; float:left; border-right:1px #CCCCCC dashed; margin:0; padding:0; background:url(Img/cz-zf02.gif) no-repeat; cursor:pointer}
+.cz-zf3{ width:89px; height:41px; float:left;margin:0; padding:0; background:url(Img/cz-zf03.gif) no-repeat; cursor:pointer}
+.cz-zf4{ width:89px; height:41px; float:left; border-right:1px #CCCCCC dashed; margin:0; padding:0; background:url(Img/cz-zf04.gif) no-repeat; cursor:pointer}
+.cz-zf5{ width:89px; height:41px; float:left; border-right:1px #CCCCCC dashed;margin:0; padding:0; background:url(Img/cz-liantong.gif) no-repeat; cursor:pointer}
+.cz-zf6{ width:89px; height:41px; float:left; border-right:1px #CCCCCC dashed; margin:0; padding:0; background:url(Img/cz-zf06.gif) no-repeat; cursor:pointer}
+.cz-zf7{ width:89px; height:41px; float:left; margin:0; padding:0; background:url(Img/cz-zf8.gif) no-repeat; cursor:pointer}
+.cz-di6{ width:947px; margin-top:16px;padding:0}
+.cz-qita{ width:206px; height:194px; border:1px solid #B5E8FF; float:left; margin-top:20px}
+.cz-qita0{ width:206px; height:194px; border:1px solid #B5E8FF; float:left; margin-top:20px; margin-left:27px!important; margin-left:14px;}
+.cz-qita1{ width:206px; height:71px; margin:0; padding:0; }
+.cz-qita2{ width:180px; height:70px; margin-top:4px}
+ 
+.cz-qita3{ width:110px; height:26px; margin-top:6px}
+.STYLE3 {color: #FF0000; font-size:12px }
+.funcb{
+float:left;
+width:75px;
+height:26px;
+margin-top:5px;
+margin-left:13px;
+margin-right:20px;
+cursor:pointer;
+ 
+}
+.fun1s{margin-left:2px;top:5px;*top:7px!important;*top:7px;position:relative}
+.tubiao{position:relative; top:-26px; left:31px;width:19px; height:23px; background: url(Img/lipin.gif); margin:0; padding:0}
+.huodong_ts{float:left; width:240px; height:20px; margin-top:5px;margin-left:12px; border:1px solid #FFFFFF; background:#FBF1BB; font-size:14px; font-weight:bold; text-align:left; padding:0px 0px 0px 8px;*padding:6px 0px 0px 8px!important;*padding:6px 0px 0px 8px; color:#1593D5}

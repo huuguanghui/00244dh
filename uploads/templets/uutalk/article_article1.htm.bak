@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+<link href="{dede:global.cfg_templets_skin/}/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_templets_skin/}/js1/goumai.js"></script>
+<script language='javascript' type='text/javascript'>
+	function checkSubmit(){
+		if(document.feedback.msg.value!='') document.feedback.submit();
+		else alert("评论内容不能为空！");
+	}
+</script>
+<style>
+.softspec {width:949px !important;}
+</style>
+
+
+</head>
+<body class="articleview" >
+{dede:include filename="head2.htm"/}
+<!-- /header -->
+
+
+<div class="w960 center clear mt1 softspec">
+	<div class="pleft softspec">
+		<div class="place softspec">
+			<div class="place"> <strong>当前位置:</strong> {dede:field name='position'/} </div>
+		</div><!-- /place -->
+		
+     <!--pageboy开始-->
+      <div class="PageBody" align="center"><!--页面主体-->
+<div class="chongzhi-di">
+<div class="waikuang-di" style="width:947px; padding-bottom:30px;background:#F5FAFD">
+<div class="hengtiao"><span class="swenzi"><a href="{dede:global.cfg_basehost/}/{dede:field name='filename'/}">在线购买</a></span></div>
+ 
+<div class="cz-di">
+<div style=" width:275px; height:27px; margin:0; padding:0; float:left; background:url({dede:global.cfg_templets_skin/}/images1/cz-di1.gif) no-repeat"></div>
+<div style=" width:580px; margin:0; padding:0; float: right; background-color:#FFFCED">
+<div align="right" style=" width:580px; padding-bottom:3px; border:1px solid #F99404"><img style="float: left; margin-top:2px;margin-left:10px; margin-right:1px" src="{dede:global.cfg_templets_skin/}/images1/cz-tubiao1.gif" border="0">
+<div align="left" style="width:546px; margin-bottom:2px; margin-top:8px; color:#000000"><font name="ts" id="ts" color="#FF0000">标准卡支持中国及国际长途、收发短信、直拨、手机版等阿里通所有功能，有效期为充值后360天；短信0.1元/条，折后每分钟/每条短信最低至6分3。</font>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+</div>
+ 
+<div align="center" style="width:820px; height:35px; margin-top:6px; padding:0">
+<div class="funcb" id="f1" onmouseover="m1('1')" onmouseout="o2('1')" style="background-image: 
+url({dede:global.cfg_templets_skin/}/css1/Img/f1bg.gif); background-position: initial initial; background-repeat: no-repeat no-repeat;">
+<span class="fun1s">标准卡</span></div> 
+<div class="funcb" id="f2" onmouseover="m1('2')" onmouseout="o2('2')" style="background-image: url({dede:global.cfg_templets_skin/}/css1/Img/f2bg.gif); background-position: initial initial; background-repeat: no-repeat no-repeat;">
+<span class="fun1s">包月卡</span></div> 
+<div class="funcb" id="f5" onmouseover="m1('3')" onmouseout="o2('5')" style="background-image: url({dede:global.cfg_templets_skin/}/css1/Img/f2bg.gif); background-position: initial initial; background-repeat: no-repeat no-repeat;">
+<span class="fun1s">时段卡</span></div>
+<!--<div class="funcb" id="f4" onmouseover="m1('4')" onmouseout="o2('4')" style="background-image: url({dede:global.cfg_templets_skin/}/css1/Img/f2bg.gif); background-position: initial initial; background-repeat: no-repeat no-repeat;">
+<span class="fun1s">硬件产品</span></div>-->
+<div style="width:250px">
+<!--
+<span style="color:#FF5F0C">更多商品：</span><a style="color:#1593D5" href="http://shop.alicall.com/" target="_blank">去阿里通商城逛逛！</a>
+-->
+</div>
+ 
+</div> 
+ 
+<form name="chargeForm" method="post" action=""> 
+<input type="hidden" name="filetype" id="filetype">
+ 
+<div style="width:797px; height:auto;" id="b1"> 
+{dede:arclist addfields='litpic,trueprice,zsje,thsc,zhfl'  flag='cz' channelid='6' } 
+<label for="cc-1[field:global.autoindex/]">
+<div class="cz-di02" style="margin-top:22px;"><input type="hidden" name="aid" value="[field:id/]"/>
+<div class="cz-id1"><input type="radio" id="cc-1[field:global.autoindex/]" value="[field:trueprice/]" name="price" onclick="countprice()" style=" margin-top:25px"></div>
+<div class="cz-ka" title="[field:title/]" style="background:url(url([field:litpic/]) no-repeat;"></div>
+<div class="cz-zi" align="left"><span style=" float:left;padding-top:20px; line-height:17px">买500<span style="font-size:15px; font-weight:bold; color:#FF0000">送</span>300，<br>折合<span style=" font-weight:bold; color:#FF0000">6分3</span>每分钟<br><a style="color:#1593D5; text-decoration: underline" href="http://www.alicall.com/vip/" target="_blank"><span style="color:##1593D5; font-weight:bold">可直升1用户</span></a></span></div>
+</div>
+ </label>
+ {/dede:arclist}
+</div>
+
+<div style="clear:both;"></div> 
+<div style="width:797px; height:auto;display:none;" id="b2"> 
+
+<label for="cc-2">
+<div class="cz-di02" style="margin-top:22px;">
+<div class="cz-id1"><input type="radio" id="cc-2" value="10" name="price" onclick="countprice()" style=" margin-top:25px"></div>
+<div class="cz-ka" title="买500送300" style="background:url({dede:global.cfg_templets_skin/}/images1/cz-ka1.gif) no-repeat;"></div>
+<div class="cz-zi" align="left"><span style=" float:left;padding-top:20px; line-height:17px">买500<span style="font-size:15px; font-weight:bold; color:#FF0000">送</span>300，<br>折合<span style=" font-weight:bold; color:#FF0000">6分3</span>每分钟<br><a style="color:#1593D5; text-decoration: underline" href="http://www.alicall.com/vip/" target="_blank"><span style="color:##1593D5; font-weight:bold">可直升2用户</span></a></span></div>
+</div>
+ </label>
+ </div>
+ 
+ <div style="clear:both;"></div> 
+<div style="width:797px; height:auto;display:none;" id="b3"> 
+
+<label for="cc-5">
+<div class="cz-di02" style="margin-top:22px;">
+<div class="cz-id1"><input type="radio" id="cc-5" value="10" name="price" onclick="countprice()" style=" margin-top:25px"></div>
+<div class="cz-ka" title="买500送300" style="background:url({dede:global.cfg_templets_skin/}/images1/cz-ka1.gif) no-repeat;"></div>
+<div class="cz-zi" align="left"><span style=" float:left;padding-top:20px; line-height:17px">买500<span style="font-size:15px; font-weight:bold; color:#FF0000">送</span>300，<br>折合<span style=" font-weight:bold; color:#FF0000">6分3</span>每分钟<br><a style="color:#1593D5; text-decoration: underline" href="http://www.alicall.com/vip/" target="_blank"><span style="color:##1593D5; font-weight:bold">可直升5用户</span></a></span></div>
+</div>
+ </label>
+ </div>
+  
+<div style="clear:both;"></div>
+<!--<div style="width:797px; height:auto;display:none;" id="b4"> 
+
+<label for="cc-4">
+<div class="cz-di02" style="margin-top:22px;">
+<div class="cz-id1"><input type="radio" id="cc-4" value="10" name="price" onclick="countprice(&#39;59&#39;,&#39;1&#39;)" style=" margin-top:25px"></div>
+<div class="cz-ka" title="买500送300" style="background:url({dede:global.cfg_templets_skin/}/images1/cz-ka1.gif) no-repeat;"></div>
+<div class="cz-zi" align="left"><span style=" float:left;padding-top:20px; line-height:17px">买500<span style="font-size:15px; font-weight:bold; color:#FF0000">送</span>300，<br>折合<span style=" font-weight:bold; color:#FF0000">6分3</span>每分钟<br><a style="color:#1593D5; text-decoration: underline" href="http://www.alicall.com/vip/" target="_blank"><span style="color:##1593D5; font-weight:bold">可直升4用户</span></a></span></div>
+</div>
+ </label>
+ </div> -->
+<br>
+<div style="clear:both;"></div>
+ 
+ 
+<div class="cz-di4" style="margin-top:20px;">
+<div style=" width:192px; height:25px; background:url({dede:global.cfg_templets_skin/}/images1/cz-di2.gif) no-repeat; float:left"></div>
+<div style="clear:both;"></div>
+<div style="width:280px; height:25px;float:left;margin-top:7px;">
+<!--<select onchange="ShowText()" name="paytype" id="paytype" style="background-color: rgb(255, 255, 255);  background-position: initial initial; background-repeat: initial initial;">
+<option value="0" selected="">请选择充值方式</option>
+<option value="2">直冲到本账号</option> 
+<option value="1">提取卡密手工充值</option> 
+</select> -->
+<select onclick="countprice()" name="num" id="num" style="background-color: rgb(255, 255, 255);  background-position: initial initial; background-repeat: initial initial;">
+<option value="0" selected="">请选择购买数量</option>
+<option value="1">1 件</option>
+<option value="2">2 件</option>
+<option value="3">3 件</option>
+<option value="4">4 件</option>
+<option value="5">5 件</option>
+<option value="6">6 件</option>
+<option value="7">7 件</option>
+<option value="8">8 件</option>
+<option value="9">9 件</option>
+<option value="10">10 件</option>
+<option value="20">20 件</option>
+<option value="30">30 件</option>
+<option value="50">50 件</option>
+<option value="100">100 件</option>
+</select>
+</div>
+<div style="float: left; width: 400px; display:none;" id="jiage">
+<div style="float:left; background: url({dede:global.cfg_templets_skin/}/images1/alitong_cardshow2_35.gif) no-repeat; width:280px; height:35px; "></div>
+<div style="float:left; background: url({dede:global.cfg_templets_skin/}/images1/alitong_cardshow2_36.gif) no-repeat; width:110px; height:35px; ">
+<div style=" padding-top:3px; margin-left:-10px">
+<font size="5" face="Verdana, Arial, Helvetica, sans-serif" color="#E457AF" name="totalprice1" id="totalprice1"><b></b></font>
+<font size="5" face="Verdana, Arial, Helvetica, sans-serif" color="#CC0000" name="totalprice" id="totalprice"><b></b></font>
+<font size="5" face="Verdana, Arial, Helvetica, sans-serif" color="#CC0000" name="totalprice2" id="totalprice2"><b></b></font>
+</div>
+</div>
+</div>
+<div style="clear:both;"></div>
+</div>
+ 
+<div class="cz-di3"></div><br>
+<div class="cz-di5">
+<div style=" width:860px; height:24px; margin-bottom:10px; padding:0"><div style=" width:194px; height:24px; float:left; background:url({dede:global.cfg_templets_skin/}/images1/cz-di3.gif) no-repeat; margin:0; padding:0"></div> </div>
+<div style=" width:880px; height:50px ; ">
+<label for="cc-9"><div class="cz-zf" style="margin-left:20px"><div class="cz-id2"><input id="cc-9" type="radio" value="8" name="pay" style=" margin-top:12px" onClick=sz()   /></div><div class="cz-zf1" title="支付宝支付"></div></div>
+<label for="cc-19"><div class="cz-zf"><div class="cz-id2"><input id="cc-19" type="radio" value="0" name="pay" onclick="sz1()" style=" margin-top:12px"></div><div class="cz-zf2" title="中国银联支付"></div></div>
+<label for="cc-39"><div class="cz-zf"><div class="cz-id2"><input id="cc-39" type="radio" value="5" name="pay" onclick="sz2()" style=" margin-top:12px"></div><div class="cz-zf3" title="神州行支付"></div></div> 
+</label></label></label></div>
+<div align="left" style=" display:none;width:760px; height:36px; border:1px solid #F99404; margin-top:6px; background-color:#FFFCED" id="szss">
+<div style=" width:750px; height:30px; margin-left:10px; margin-top:6px;padding:0;"><img style="float: left; margin-top:3px; margin-right:5px; margin-left:2px" src="{dede:global.cfg_templets_skin/}/images1/cz-tubiao1.gif" border="0"><span class="STYLE3"><font name="sz2" id="sz2">在线支付时需于本网站登录阿里通用户，完成支付后可在个人帐户管理中，查询购买记录得到充值卡卡号密码信息。 </font></span> <br>
+<font color="#000000" name="sz3" id="sz3">提示支付成功以后，如果未能及时获取卡密信息，请与客服热线80000联系。</font></div>
+</div>
+<div style=" width:110px; height:27px; margin-top:12px; margin-bottom:20px"><img src="{dede:global.cfg_templets_skin/}/images1/zhifu-anniu.gif" name="Image4" width="110" height="27" border="0" id="Image4" style="cursor:pointer" onclick="CheckForm();" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;Image4&#39;,&#39;&#39;,&#39;http://210.83.225.5/alicall2008/images/zhifu-anniu2.gif&#39;,1)"></div>
+ 
+</div>
+</form>
+</div>
+</div>
+ <div style="clear:both"></div>
+</div>
+     <!--pagebody结束-->
+        
+	</div><!--/pleft-->
+	
+	
+</div>
+
+{dede:include filename="footer.htm"/}
+<!-- /footer -->
+
+</body>
+</html>

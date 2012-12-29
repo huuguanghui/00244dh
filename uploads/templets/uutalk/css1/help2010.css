@@ -1,0 +1,117 @@
+body {font-size:12px;text-align:left;background:#FFF;font-family: Arial, Helvetica, sans-serif;margin:0; padding:0 ;}
+a:link{color:#000000;text-decoration:none}
+a:visited {text-decoration: none; color:#000000}
+a:hover{color:#F57018;text-decoration:underline;}
+br{ margin:0; padding:0}
+ul,li{ margin:0; padding:0; float:left; text-align:center; list-style:none}
+h1{ font-size:14px; font-weight:bold; color:#000000; text-align:left}
+input.b1{border:1px solid  #FFFFFF; width:320px; height:23px; margin-top:2px; *margin-top:1px!important; *margin-top:1px; padding:0; line-height:23px}
+.container {width:100%; height:100%;}
+.mian{ width:949px; height:100%; margin:10px 0px 20px 0px;}
+.header{ width:100%; height:98px; background:url(http://210.83.225.5/alicall2008/images/top-di1.gif)}
+.header .container{ width:949px; height:98px; }
+.header .left_logo{ width:176px; height:98px; background:url(../images/2010logo.gif) no-repeat; float:left}
+.header .right{ width:773px;height:98px; float:right; background:url(../images/2010top_di.gif) no-repeat}
+.header .r_1{ width:598px;float:left;padding-top:64px}
+.header .r_2{ width:90px; height:30px; float: right; padding-top:60px}
+.header .r_2 img{ padding-right:6px}
+.header .r_2 span{ color:#0C65A4}
+.header .r_2 a:hover{ color:#0C65A4}
+.header #nav{ width:342px; height:34px; }
+.header #nav li{ width:102px; height:34px;margin-right:12px; float:left;display:inline; }
+#nav a{display: block;cursor:pointer;width:102px; height:34px;font-size:14px; font-weight:bold; line-height:32px; text-decoration: none; }
+#nav #anniu2{ width:102px; height:34px;cursor:pointer;background-image:url(../images/2010nav_anniu.gif); background-position: 0px 34px;}
+#nav #anniu1{ width:102px; height:34px;cursor:pointer;background-image:url(../images/2010nav_anniu.gif); background-position: 0px 0px;cursor:pointer;}
+#nav #anniu2 a:link{color:#FFFFFF;background-image:url(../images/2010nav_anniu.gif); background-position: 0px 34px; }
+#nav #anniu2 a:visited{color:#FFFFFF;}
+#nav #anniu2 a:hover{color:#FFFFFF;background-image:url(../images/2010nav_anniu.gif); background-position: 0px 34px;}
+#nav #anniu1 a:link{color:#3A62D2;background-image:url(../images/2010nav_anniu.gif); background-position: 0px 0px;}
+#nav #anniu1 a:visited{color:#0C65A4}
+#nav #anniu1 a:hover{color: #0EABF8;background-image:url(../images/2010nav_anniu.gif); background-position: 0px 0px;}
+.search{ width:949px; height:41px; background:url(../images/2010search.gif) no-repeat}
+.search .s_di{ width:634px; height:28px; float:right; padding-top:4px}
+.search .s_1{ width:330px; height:28px; float:left;}
+.search .s_2{ width:70px; height:28px; float:left;}
+.search .s_3{ width:220px;height:28px; float: right; line-height:26px; color:#FFFFFF}
+.search .s_3 span{ font-weight:bold}
+.search .s_3 a{ text-decoration: none; color:#FFFFFF}
+.search .s_3 a:link{color:#FFFFFF; }
+.search .s_3 a:visited{color:#FFFFFF; }
+.search .s_3 a:hover{color:#FFEE2C; text-decoration:underline }
+.left{ width:229px; height:100%; float:left;}
+.banner{ width:229px; height:85px}
+.sidebar{ width:229px; height:35px; background-image:url(../images/2010ce_andi.gif); background-position:0px 0px}
+.si_tb{ width:23px; height:23px; float:left}
+.si_font{ width:200px; height:23px; float:right;}
+.sidebar span{line-height:35px;padding-left:76px;color: #0C65A4}
+.sidebar a{font-size: 14px;display: block;text-decoration: none;width:229px; height:35px; text-align:left;color: #0C65A4;}
+.sidebar a:link{color: #0C65A4;}
+.sidebar a:visited{color: #0C65A4; }
+.sidebar a:hover{ font-weight:bold;text-decoration: none ;background-image:url(../images/2010ce_andi.gif); background-position:0px 35px}
+.parent{ width:100%}
+.vertmenu { color:#008FE1; position:relative; text-align:left}
+.vertmenu img{ padding-right:8px}
+.vertmenu ul{ padding-top:0px;*padding-top:0px!important;*padding-top:8px}
+.vertmenu li { height:30px; text-align:left; width:140px; padding:0px 0px 0px 76px}
+.vertmenu ul li span{line-height:35px; width:229px}
+.vertmenu a{ display:block}
+.vertmenu a:link{color: #008FE1;}
+.vertmenu a:visited{color: #008FE1; }
+.vertmenu a:hover{text-decoration: underline; color:#F57018}
+.kefu{width:229px; border-bottom:1px solid #C4E4EB; background:url(../images/2010kefu_top.gif); margin-top:8px;height: auto; padding-bottom:8px}
+.kefu .top{background:url(../images/2010helpfl_top3.gif) repeat-x;  height:31px}
+.kefu .top_1{background:url(../images/2010kefu_top2.gif) no-repeat; height:31px; width:28px; float:left}
+.kefu .top_2{height:31px;  float:left; width:100px}
+.kefu .top_2 img{height:31px;  float: right}
+.kefu .top_2 span{ font-size:14px; font-weight:bold; color:#008FE1; line-height:34px; padding-left:10px; float:left;}
+.kefu .top_3{background:url(../images/2010helpfl_top2.gif) no-repeat; height:31px; width:3px; float:right}
+.kf_di{ width:210px; height:67px; }
+.ge{ width:7px; height:100px; float:left}
+.2kf_di{ width:210px; height:150px; float:right}
+.qq_di{ height:32px; width:108px; float:left; margin:0; padding:0px}
+.kf_di2{ width:197px; height:68px; margin-bottom:10px}
+.kf_1{ width:55px; height:67px; float:left; background-image:url(../images/2010ce_ico.gif); background-position:0px 0px}
+.kf_2{ width:55px; height:67px; float:left; background-image:url(../images/2010ce_ico.gif); background-position:0px 134px}
+.kf_3{ width:55px; height:67px; float:left; background-image:url(../images/2010ce_ico.gif); background-position:0px 67px}
+.kf_01{ width:142px; height:50px; float: right; text-align:left; padding-top:10px;line-height:21px;color:#666666}
+.right{ width:711px; height:100%; float:right}
+.cjwt{ width:711px; border-bottom:1px solid #FEC459; background:url(../images/2010cjwt_top.gif)}
+.cjwt .top{background:url(../images/2010cjwt_top3.gif) repeat-x;  height:31px}
+.cjwt .top_1{background:url(../images/2010cjwt_top1.gif) no-repeat; height:31px; width:26px; float:left}
+.cjwt .top_2{height:31px;  float:left; width:670px}
+.cjwt .top_2 img{height:31px;  float: right}
+.cjwt .top_2 span{ font-size:14px; font-weight:bold; color:#F57018; line-height:34px; padding-left:10px; float:left;}
+.cjwt .top_3{background:url(../images/2010cjwt_top2.gif) no-repeat; height:31px; width:3px; float:right}
+.content{ width:671px; margin:12px 0px}
+.cont_1{ width:320px; float:left}
+.cont_1 ul{ width:320px;}
+.cont_1 li{ width:300px; height:17px; text-align:left; text-indent:0.8em; margin:5px 12px 0px 0px; background:url(../images/2010cjwt_icon2.gif) left 4px no-repeat}
+.help_fl{ width:711px; border-bottom:1px solid #C4E4EB; background:url(../images/2010helpfl_top.gif); margin-top:8px ; padding-bottom:4px}
+.help_fl .top{background:url(../images/2010helpfl_top3.gif) repeat-x;  height:31px}
+.help_fl .top_1{background:url(../images/2010helpfl_top1.gif) no-repeat; height:31px; width:28px; float:left}
+.help_fl .top_2{height:31px;  float:left; width:670px}
+.help_fl .top_2 img{height:31px;  float: right}
+.help_fl .top_2 span{ font-size:14px; font-weight:bold; color:#008FE1; line-height:34px; padding-left:10px; float:left;}
+.help_fl .top_3{background:url(../images/2010helpfl_top2.gif) no-repeat; height:31px; width:3px; float:right}
+.fl_1{ width:325px; height:95px; border-bottom:1px dotted #B9B9B9; float:left; margin:6px 0px 6px 0px}
+.fl_2{ width:325px; height:95px; border-bottom:1px dotted #B9B9B9; float:left; margin:6px 0px 6px 20px}
+.fl_top{ background:url(../images/2010helpfl_dot.gif) no-repeat}
+.fl_top span{font-size:14px; font-weight:bold; color:#000000; padding-left:18px}
+.helpList { width:290px; padding-top:10px}
+.helpList ul li{ width:95px;height:21px; text-align:left; margin:0px 0px 0px 0px; float:left; color:#008FE1; line-height:21px; }
+.helpList a:link{color: #008FE1;}
+.helpList a:visited{color: #008FE1; }
+.helpList a:hover{text-decoration: underline; color:#F57018}
+.footer{ width:947px; height:108px; border:1px solid #C4E4EC; background:#FBFEFF; margin-bottom:60px; padding: 0}
+.foot_di{ padding:5px; background:#FFFFFF; border:1px solid #F0F5FF; height:96px}
+.foot_di .nav{ height:36px; background:#E7F4F7; padding-left:10px}
+.foot_di .nav li{ width:70px; height:17px; line-height:36px}
+.foot_di .nav a:link{color: #0C65A4;}
+.foot_di .nav a:visited{color: #0C65A4; }
+.foot_di .nav a:hover{text-decoration: underline; color:#F57018}
+.foot_1{ height:50px;color:#858585; line-height:20px; padding-top:10px}
+.foot_1 a:link{color: #008FE1;}
+.foot_1 a:visited{color: #008FE1; }
+.foot_1 a:hover{text-decoration: underline; color:#F57018}
+
+.serkey{ color:#808080}

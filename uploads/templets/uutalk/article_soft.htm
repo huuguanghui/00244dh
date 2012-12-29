@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+<link href="{dede:global.cfg_templets_skin/}/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_templets_skin/}/js1/download.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+function CheckLogin()
+{
+	var taget_obj = document.getElementById('_ajax_feedback');
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("{dede:global.cfg_cmsurl/}/member/ajax_feedback.php");
+	DedeXHTTP = null;
+}
+function postBadGood(ftype,fid)
+{
+	var taget_obj = document.getElementById(ftype+fid);
+	var saveid = GetCookie('badgoodid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==fid && hasid) continue;
+			else {
+				if(saveids[i]==fid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==10 && hasid) break;
+				if(j==9 && !hasid) break;
+			}
+		}
+		if(hasid) { alert('您刚才已表决过了喔！'); return false;}
+		else saveid += ','+fid;
+		SetCookie('badgoodid',saveid,1);
+	}
+	else
+	{
+		SetCookie('badgoodid',fid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("{dede:global name='cfg_phpurl'/}/feedback.php?aid="+fid+"&action="+ftype+"&fid="+fid);
+	DedeXHTTP = null;
+}
+function postDigg(ftype,aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	var saveid = GetCookie('diggid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==aid && hasid) continue;
+			else {
+				if(saveids[i]==aid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==20 && hasid) break;
+				if(j==19 && !hasid) break;
+			}
+		}
+		if(hasid) { alert("您已经顶过该帖，请不要重复顶帖 ！"); return; }
+		else saveid += ','+aid;
+		SetCookie('diggid',saveid,1);
+	}
+	else
+	{
+		SetCookie('diggid',aid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	var url = "{dede:global.cfg_phpurl/}/digg_ajax.php?action="+ftype+"&id="+aid;
+	myajax.SendGet2(url);
+	DedeXHTTP = null;
+}
+function getDigg(aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("{dede:global.cfg_phpurl/}/digg_ajax.php?id="+aid);
+	DedeXHTTP = null;
+}
+-->
+</script>
+<style>
+.softspec {width:949px !important;}
+.info {float:left;width:133px;height:auto;margin-bottom:8px;}
+</style>
+</head>
+<body class="downlist">
+{dede:include filename="head2.htm"/}
+<!-- /header -->
+
+<div class="w960 center clear mt1 softspec">
+	<div class="pleft softspec" style="float:none;">
+		<div class="place softspec">
+			<strong>当前位置:</strong> {dede:field name='position'/}
+		</div><!-- /place -->
+        <!--页面主体-->
+        <div class="maindown">
+   <div class="download_gg"></div>
+   <div class="down_di1">
+    <div class="down_left"></div>
+	<div class="down_right">
+	 <div class="down_r_1">
+	   <div style="width:520px; text-align:left; font-size:14px; margin-left:70px;">UUTALK已经被下载<span id="login6"></span><span style="font-size:20px; font-weight:bold; color:#F76F00; padding:0px 6px 0px 6px" id="download"><script src="{dede:field.phpurl/}/disdls.php?aid={dede:field.id/}" language="javascript"></script></span>次</div>
+	 </div>
+	 <div class="down_r_2">
+	<!--  <div class="down_r_di">
+	   <div class="down_an" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('downloadpc','','{dede:global.cfg_templets_skin/}/images1/pc_anniu2.gif',1)">{dede:field name='softlinks'/}<img src="/templets/default/images1/pc_anniu1.gif" name="downloadpc" width="217" height="47" border="0" id="downloadpc" title="阿里通电脑版下载"></a></div>
+	   <div class="down_zi">更新日期:{dede:field.uddate function="GetDateMk('@me')"/}</div>
+	   <a style="color:#0080C4" href="http://110.76.38.51/alicall_v5.0(VoipZB).zip"><u>特殊版下载：解决无声音，单通问题</u></a>
+	  </div>-->
+	  <div class="down_r_di">
+	   <div class="down_an" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('downloadphone','','{dede:global.cfg_templets_skin/}/images1/Phone_anniu2.gif',1)">{dede:field name='softlinks'/}<img src="{dede:global.cfg_templets_skin/}/images1/Phone_anniu1.gif" name="downloadphone" width="217" height="47" border="0" id="downloadphone" title="阿里通手机版下载"></a></div>
+	   <div class="down_zi2" style="text-align:center;">更新日期:{dede:field.uddate function="GetDateMk('@me')"/}</div>
+	  </div>
+	   <div style="width:270px;height:98px;float:left;">
+               
+                <div class="info"><strong>软件大小：</strong><span>{dede:field.softsize/}</span></div>
+                <div class="info"><strong>界面语言：</strong><span>{dede:field.language/}</span></div>
+                
+                
+				<div class="info"><strong>软件类型：</strong><span>{dede:field.softtype/}</span></div>
+				<div class="info"><strong>授权方式：</strong><span>{dede:field.accredit/}</span></div>
+               
+				<div class="info" style="width:auto !important"><strong>运行环境：</strong><span>{dede:field.os/}</span></div>
+			</div><!-- /info -->
+	 </div>
+	 <div class="down_r_3" align="left"><!--下载站点-->
+	<!-- <div class="downr_3di">
+	   <div class="down_tab">官方下载站点</div>
+	   <div class="tab_zi"><a href="http://account.alicall.com/download.asp">官网下载(电信)</a></div>
+	    <div class="tab_zi"><a href="http://account.alicall.com/download1.asp">官网下载(网通)</a></div>
+	  </div>
+	     <div class="downr_3di2">
+	   <div class="down_tab">合作下载站点</div>
+	   <div class="tab_zi"><a href="http://mydown.yesky.com/soft/network/others/430/438930.shtml" target="_blnk">天极网下载</a> </div>
+	   <div class="tab_zi"><a href="http://www.skycn.com/soft/20654.html" target="_blnk">天空下载</a>  </div>
+	   <div class="tab_zi"><a href="http://dl.pconline.com.cn/download/54854.html" target="_blnk">太平洋下载</a> </div>
+	   <div class="tab_zi"><a href="http://www.newhua.com/soft/4960.htm" target="_blnk">华军下载</a> </div>
+	    <div class="tab_zi"><a href="http://baoku.360.cn/soft/show?appid=101595" target="_blnk">360宝库下载</a> </div>
+	  </div>-->
+	 </div>
+	</div>
+   </div>
+   <!--功能介绍-->
+  <!-- <div class="down_di2"> 
+   <div class="down_di3" id="features" style="visibility: visible;">
+	 <div class="down_gndi_left">
+	  <div class="down_di4">     
+	   <div class="down_gndi"><a href="http://www.alicall.com/help/showhelp-54.html"  title="电脑拨打电话" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images1/download_ico1.gif" width="66" height="67" border="0">
+	  <dl>
+	   <dt><img src="{dede:global.cfg_templets_skin/}/images1/download_icon.gif" width="9" height="9" border="0"><span>电脑拨打电话</span></dt>
+	   <dd>通过电脑+耳麦，可以瞬间拨通世界上任何一个国家和地区的手机和固话，拨打中国折后低至5分钱。</dd>
+	   
+	  </dl> </a> </div>
+	  </div>
+	  <div class="down_di4">
+	   <div class="down_gndi"><a href="http://www.alicall.com/alicall-mobile/"  title="手机拨打电话" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images1/download_ico3.gif" width="66" height="67" border="0">
+	  <dl>
+	   <dt><img src="{dede:global.cfg_templets_skin/}/images1/download_icon.gif" width="9" height="9" border="0"><span>手机拨打电话</span></dt>
+	   <dd>不用开电脑也可轻松、快捷的拨打电话啦！亲情号码折后低至7分钱。</dd>
+	   
+	  </dl></a>	  </div>
+	  </div>
+	  <div class="down_di4">
+	   <div class="down_gndi"><a href="http://www.alicall.com/help/showhelp-60.html"  title="通讯录功能" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images1/download_ico5.gif" width="66" height="67" border="0">
+	  <dl>
+	   <dt><img src="{dede:global.cfg_templets_skin/}/images1/download_icon.gif" width="9" height="9" border="0"><span>通讯录功能</span></dt>
+	   <dd>全部联系人数据加密存放在服务器端，安全可靠，永不丢失；任何能上网的地方，都能随时随地查看和编辑通讯录。</dd>
+	   
+	  </dl></a>	  </div>
+	  </div>
+	  <div class="down_di5">
+	   <div class="down_gndi"><a href="http://www.alicall.com/help/showhelp-216.html"  title="工具箱功能" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images1/download_ico7.gif" width="66" height="67" border="0">
+	  <dl>
+	   <dt><img src="{dede:global.cfg_templets_skin/}/images1/download_icon.gif" width="9" height="9" border="0"><span>工具箱功能</span></dt>
+	   <dd>提供查询IP地址、手机归属地、身份证、城市区号邮编、区号查询城市、英汉词典翻译、Google搜索、百度搜索等。</dd>
+	   
+	  </dl></a>	  </div>
+	  </div>
+	 <div style="clear:both"></div>
+	 </div>
+     
+	 <div class="down_gndi_right">
+	  <div class="down_di4">
+	   <div class="down_gndi"><a href="http://www.alicall.com/help/showhelp-104.html" title="短信功能"  target="_blank"><img src="{dede:global.cfg_templets_skin/}/images1/download_ico2.gif" width="66" height="67" border="0">
+	  <dl>
+	   <dt><img src="{dede:global.cfg_templets_skin/}/images1/download_icon.gif" width="9" height="9" border="0"><span>短信功能</span></dt>
+	   <dd>中国移动/中国联通，0.1元/条，支持国际短信，支持短信群发功能。手机请访问wap.alicall.com </dd>
+	   
+	  </dl> </a>
+	 	
+	  </div>
+	  </div>
+	  <div class="down_di4">
+	   <div class="down_gndi"><a href="http://www.alicall.com/help/showhelp-216.html" title="Mini首页功能"  target="_blank"><img src="{dede:global.cfg_templets_skin/}/images1/download_ico4.gif" width="66" height="67" border="0">
+	  <dl>
+	   <dt><img src="{dede:global.cfg_templets_skin/}/images1/download_icon.gif" width="9" height="9" border="0"><span>Mini首页功能 </span></dt>
+	   <dd>Mini首页展示阿里通的精华资讯，便于用户随时查阅阿里通的最新优惠活动及论坛精华主题。</dd>
+	   
+	  </dl>
+	  </a>	
+	  </div>
+	  </div>
+	  <div class="down_di4">
+	   <div class="down_gndi"><a href="http://www.alicall.com/help/showhelp-61.html" title="彩话、录音功能"  target="_blank"><img src="{dede:global.cfg_templets_skin/}/images1/download_ico6.gif" width="66" height="67" border="0">
+	  <dl>
+	   <dt><img src="{dede:global.cfg_templets_skin/}/images1/download_icon.gif" width="9" height="9" border="0"><span>彩话、录音功能</span></dt>
+	   <dd>通话过程中，您可在“彩话”中选择一个合适背景音，播放给对方听；同时，您也可点击“录音”按钮进行通话录音。</dd>
+	   
+	  </dl>
+	  </a>	
+	  </div>
+	  </div>
+	  <div class="down_di5">
+	   <div class="down_gndi"><a href="http://www.alicall.com/help/showhelp-216.html" title="界面换肤功能" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images1/download_ico8.gif" width="66" height="67" border="0">
+	  <dl>
+	   <dt><img src="{dede:global.cfg_templets_skin/}/images1/download_icon.gif" width="9" height="9" border="0"><span>界面换肤功能</span></dt>
+	   <dd>系统除了提供默认的皮肤颜色和另外八套参考方案，用户还可以随意变换自己喜欢的颜色。</dd>
+	   
+	  </dl>
+	  </a>	
+	  </div>
+	  </div>
+	 <div style="clear:both"></div>
+	 </div>
+    <div style="clear:both"></div>
+	</div>
+   </div>-->
+
+   <div style="width:949px; height:52px; background:url({dede:global.cfg_templets_skin/}/css1/Img/download_di.gif) no-repeat"></div>
+  
+  <div style="clear:both"></div>
+  </div>
+  <!--/maindownload-->
+  <!-- /viewbox -->
+		<div class="viewbox softspec">
+			<div class="labeltitle">
+				<strong>下载说明</strong>
+			</div>
+			<div class="intro" style="width:915px;">
+				{dede:softmsg/}
+			</div>
+			
+		</div>
+	</div><!-- /pleft -->
+
+	
+</div>
+<div id="innerfooterAD2" style="margin:10px auto; width:726px">{dede:myad name='innerfooterAD2'/}</div>
+{dede:include filename="footer.htm"/}
+
+<!-- /footer -->
+<script src="{dede:global name='cfg_phpurl'/}/count.php?aid={dede:field name='id'/}&mid={dede:field name='mid'/}" language="javascript">
+</script>
+</body>
+</html>

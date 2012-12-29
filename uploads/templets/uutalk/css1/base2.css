@@ -1,0 +1,134 @@
+/*基本信息*/
+body { font-size:12px;margin:0px 0px 0px 0px;text-align:left;background:#FFF;}
+
+
+/*页面层容器*/
+.container {width:100%; height:100%}
+a:link{color:#000000;text-decoration:none}
+a:visited {text-decoration:none; color:#000000}
+a:hover{color:#7CD300;text-decoration:underline;}
+
+h1{ font-size:13px; font-weight:bold;color:#555555}
+.swenzi{ font-size:13px; color:#555555; font-weight:bold; float:left; margin-top:8px; margin-left:6px}
+.swenzi a:link{color:#555555;}
+.swenzi a:hover{color:#555555;text-decoration:underline;}
+h3{ font-size:12px; font-weight:bold; color: #D50000; text-align:left; margin-left:4px; margin-top:5px; line-height:14px}
+.hengtiao{ background: url(http://210.83.225.5/alicall2008/images/ht.gif);height:29px; margin:0; padding:0}
+
+/*页面主体*/
+.PageBody {width:949px;margin:0px 0px 0px 0px;height:100%;background: #FFFFFF; }
+.waikuang-di{border:1px;border-style:solid; border-color:#C7DFDD}
+.waikuang-di2{ border:1px;border-style:solid; border-color:#BAE5F4; float:left}
+.STYLE1 {color: #FF0000;font-weight: bold;}
+.STYLE2 {color: #FF0000}
+.STYLE3 {color: #FF6C00;font-size: 16px;}
+
+
+
+/*页面头部*/
+.Header {width:100%; margin:0; padding:0;height:100px}
+.top-di{width:100%; height:100px; background-image:url(http://210.83.225.5/alicall2008/images/top-di1.gif); margin:0; padding:0}
+.top-neirong{width:949px; height:100px;margin:0; padding:0}
+.topMenu{ width:949px; height:32px; }
+.topMenu ul {list-style:none;padding-left:640px;margin:0; padding-top:5px}
+.topMenu ul li {float:left}
+.topMenu .anniu{ width:65px; height:22px;BACKGROUND: url(http://210.83.225.5/alicall2008/images/top-an.gif) no-repeat; padding-top:5px }
+.topMenu .anniu1{ width:100px; height:22px; padding-top:5px }
+.topMenu .anniu2{ width:66px; height:22px;BACKGROUND: url(http://210.83.225.5/alicall2008/images/top-an.gif) no-repeat; padding-top:5px; color:#FF0000}
+.topMenu .anniu3{width:68px; height:22px;BACKGROUND: url(http://210.83.225.5/alicall2008/images/shoucang.gif) no-repeat; padding-top:5px; color:#FF0000; text-align:left; margin-left:2px}
+.topMenu .anniu2  A:link {COLOR: red; TEXT-DECORATION: none}
+.topMenu .anniu2  A:visited {COLOR: red; TEXT-DECORATION: none}
+.topMenu .anniu2  A:hover {COLOR: #ff0000; TEXT-DECORATION:none}
+.topMenu .anniu2  A:active {COLOR: red; TEXT-DECORATION: none}
+
+.top-zhong{width:949px; height:68px}
+.top-logo{width:121px; height:67px; float:left; margin:0; padding:0}
+.top-logo2{width:121px; height:67px; float:left; margin:0; padding:0}
+.toptubiao-di{ width:828px; height:67px; margin:0; padding:0; float:left}
+.toptubiao-1{  width:795px; height:35px;float: right; padding-left:10px}
+.toptubiao-2{ width:714px; height:15px;float:left}
+
+.toptubiao-kuang{  float:left; margin-right:14px; margin-top:5px;padding:0;width:65px; height:35px} 
+.toptubiao-kuang2{ width:72px; float:left;margin-left:15px; margin-top:6px!important;margin-top:4px;}
+
+.top-anniudi{ width:100%; height:38px; background-image:url(http://210.83.225.5/alicall2008/images/top-di2.gif); padding:0; margin:0}
+.menu-di{width:949px; height:38px; font-weight:bold; color:#FFFFFF; padding:0; margin:0}
+.menu{width:949px; padding:0; margin:0}
+.menu ul {Margin:0;list-style:none; padding:0}
+.menu ul li {float:left; font-size:14px; margin:0; padding:0;WIDTH: 78px;}
+
+
+.menu ul li a:link {COLOR: #FFFFFF;}
+.menu ul li a:visited{COLOR: #FFFFFF}
+.menu ul li a:hover{COLOR: #FFFD5B}
+
+#ChannelMenu { WIDTH: 949px}
+#ChannelMenuItems { WIDTH:949px; padding:0; margin:0}
+#ChannelMenuItems LI {FLOAT: left; WIDTH: 89px; HEIGHT: 25px; padding-left:5px;*padding-left:5px!important;*padding-left:0px}
+#ChannelMenuItems A SPAN {PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT:5px; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; WIDTH: 86px; CURSOR: hand; COLOR: #ffffff; PADDING-TOP: 0px; FONT-STYLE: normal; HEIGHT: 25px; 
+}
+#ChannelMenuItems LI#MenuHome A SPAN {
+	 COLOR: #fff; BACKGROUND-REPEAT: no-repeat; 
+}
+#ChannelMenuItems LI#MenuReg A SPAN {
+	BACKGROUND-POSITION: center; COLOR: #fff; BACKGROUND-REPEAT: no-repeat; 
+}
+L#ChannelMenuItems LI#MenuSoft A SPAN {
+	BACKGROUND-POSITION: center top; COLOR: #fff; BACKGROUND-REPEAT: no-repeat;
+}
+#ChannelMenuItems LI#MenuDown A SPAN {
+	BACKGROUND-POSITION: center top; COLOR: #fff; BACKGROUND-REPEAT: no-repeat;
+}
+#ChannelMenuItems LI#MenuFee A SPAN {
+	BACKGROUND-POSITION: center top; COLOR: #fff; BACKGROUND-REPEAT: no-repeat;
+}
+#ChannelMenuItems LI#MenuHelp A SPAN {
+	BACKGROUND-POSITION: center top; COLOR: #fff; BACKGROUND-REPEAT: no-repeat;
+}
+L#ChannelMenuItems LI#MenuService A SPAN {
+	BACKGROUND-POSITION: center top; COLOR: #fff; BACKGROUND-REPEAT: no-repeat;
+}
+#ChannelMenuItems LI#MenuManager A SPAN {
+	BACKGROUND-POSITION: center top; COLOR: #fff; BACKGROUND-REPEAT: no-repeat;
+}
+#ChannelMenuItems LI#MenuHome A:hover SPAN {
+	BACKGROUND-POSITION: center top; COLOR: #fff779; BACKGROUND-REPEAT: no-repeat;
+}
+#ChannelMenuItems LI#MenuReg A:hover SPAN {
+	BACKGROUND-POSITION: center top; COLOR: #fff779; BACKGROUND-REPEAT: no-repeat;
+}
+ #ChannelMenuItems LI#MenuSoft A:hover SPAN {
+	BACKGROUND-POSITION: center top; COLOR: #fff779; BACKGROUND-REPEAT: no-repeat;
+}
+#ChannelMenuItems LI#MenuDown A:hover SPAN {
+	BACKGROUND-POSITION: center top; COLOR: #fff779; BACKGROUND-REPEAT: no-repeat;
+}
+#ChannelMenuItems LI#MenuFee A:hover SPAN {
+	BACKGROUND-POSITION: center top; COLOR: #fff779; BACKGROUND-REPEAT: no-repeat;
+}
+#ChannelMenuItems LI#MenuHelp A:hover SPAN {
+	BACKGROUND-POSITION: center top; COLOR: #fff779; BACKGROUND-REPEAT: no-repeat;
+}
+#ChannelMenuItems LI#MenuService A:hover SPAN {
+	BACKGROUND-POSITION: center top; COLOR: #fff779; BACKGROUND-REPEAT: no-repeat;
+}
+#ChannelMenuItems LI#MenuManager A:hover SPAN {
+	BACKGROUND-POSITION: center top; COLOR: #fff779; BACKGROUND-REPEAT: no-repeat;
+}
+#ChannelMenuItems A SPAN {
+	CURSOR: pointer; HEIGHT: 0px;height:38px
+}
+
+.current{ background:url(http://210.83.225.5/alicall2008/images/an1.gif) no-repeat}
+
+
+/*页面底部*/
+.Footer {width:100%;height:166px; background-image:url(http://210.83.225.5/alicall2008/images/footer-di.gif); margin:0; padding:0}
+.Footer-di{width:949px;height:166px;margin:0; padding:0}
+.Footer-di1{width:949px;height:20px;margin:0; padding:0}
+.Footer-di1 ul {list-style:none; margin-top:60px;*margin-top:0px!important;*margin-top:30px;}
+.Footer-di1 ul li {float:left; padding-left:8px; font-size:12px; margin:0}
+.Footer-di2{width:949px;height:3px; background: url(http://210.83.225.5/alicall2008/images/di-di.gif) no-repeat; margin-top:3px}
+.Footer-di3{width:949px;height:35px; margin:0; padding:0}
+.Footer-di5{width:930px;height:35px; float:left; margin-top:9px !important; margin-top:2px; text-align:center}
+.Footer-di4{width:10px;height:35px; float:left }
