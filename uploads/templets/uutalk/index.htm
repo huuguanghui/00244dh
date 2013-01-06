@@ -15,26 +15,6 @@
 <script language="javascript" type="text/javascript" src="{dede:global.cfg_cmsurl/}/include/dedeajax2.js"></script>
 <script language="javascript" type="text/javascript" src="{dede:global.cfg_cmspath/}/images/js/j.js" ></script>
 
-<script language="javascript" type="text/javascript">
-<!--
-	$(function(){
-		$("a[_for]").mouseover(function(){
-			$(this).parents().children("a[_for]").removeClass("thisclass").parents().children("dd").hide();
-			$(this).addClass("thisclass").blur();
-			$("#"+$(this).attr("_for")).show();
-		});
-		$("a[_for=uc_member]").mouseover();
-		$("a[_for=flink_1]").mouseover();
-	});
-	
-	function CheckLogin(){
-	  var taget_obj = document.getElementById('_userlogin');
-	  myajax = new DedeAjax(taget_obj,false,false,'','','');
-	  myajax.SendGet2("{dede:global.cfg_cmspath/}/member/ajax_loginsta.php");
-	  DedeXHTTP = null;
-	}
--->
-</script>
 </head>
 <body class="index">
 {dede:include filename="head.htm"/}
@@ -43,23 +23,6 @@
 <div class="h_1">
 <div class="h_1_1"></div>
 <div class="h_1_2">
-<!--<div class="h_dh">
-<div class="h_dh_t">快速导航</div>
-<div class="h_dh_l">
-<ul>
-{dede:type typeid='29'}
-<li><a href="[field:typeurl/]" title="软件电话" class="d_ico">软件电话</a></li>
-{/dede:type}
-<li><a href="/alicall-mobile/" title="手机网络电话" class="m_ico">手机拨打</a></li>
-<li><a href="/vip/" title="最新活动" class="n_ico">最新活动</a></li>
-<li><a href="/buyonline.htm" title="帐号充值" class="b_ico">帐号充值</a></li>
-<li><a href="/rate/" title="资费说明" class="r_ico">资费说明</a></li>
-{dede:type typeid='30'}
-<li><a href="[field:typeurl/]" title="常见问题" target="_blank" class="h_ico">常见问题</a></li>
-{/dede:type}
-</ul>
-</div>
-</div>-->
 <div class="flashnews" style="margin-top:12px">
    <!-- size: 280px * 192px -->
    <script language='javascript'>
@@ -364,19 +327,12 @@ document.write('</object>');
 <div class="flink w960 center clear">
  <dl class="tbox">
   <dt> <strong>友情链接</strong>
-	<span class="linklabel">
-            {dede:flinktype }
-            <a href="#" _for="flink_[field:id/]" >[field:typename/]</a> 
-            {/dede:flinktype}
-            </span>
 	<span class="more"> <a href="plus/flink.php">所有链接</a> | <a href="plus/flink_add.php">申请加入</a> </span> </dt>
-  {dede:flinktype }
-  <dd id="flink_[field:id/]">
+  <dd>
     <ul class="f5">
-		{dede:flink/}
+	{dede:flink/}
     </ul>
   </dd>
-    {/dede:flinktype}
  </dl>
 </div>
 <!-- /flink -->
