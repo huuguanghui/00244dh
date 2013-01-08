@@ -1,0 +1,405 @@
+﻿
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(../images/bg.png);
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: #333;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: normal; 
+}
+
+a {
+	text-decoration: none;
+	color: #08c;
+}
+
+.w960 {
+	width: 960px;
+	margin: auto;
+}
+
+.w360 {
+	width: 360px;
+}
+
+.w600 {
+	width: 600px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	overflow: auto;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.header {
+	margin-top: 40px
+}
+
+.logo {
+	width: 218px;
+	height: 105px;
+	margin: 0 0 10px 0;
+	background: url(../images/logo.png);
+}
+
+.nav-bar {
+	background: url(../images/navi_bg.png);
+	overflow: auto;
+}
+
+.nav-bar ul ,
+.flink ul,
+.faq-list ul {
+	list-style: none;
+}
+
+.nav-bar ul li {
+	float: left;
+	margin: 20px;
+	font-size: 20px;
+}
+
+.nav-bar ul li a {
+	color: #DDD;
+}
+
+.nav-bar ul li a:hover {
+	color: #FFF;
+}
+
+.content {
+	padding: 10px;
+	overflow: auto;
+}
+
+.footer {
+	margin: 10px auto;
+	padding: 10px;
+	border-top: 1px solid #ccc;
+	text-align: center;
+}
+
+.index-banner {
+	position: relative;
+	width: 960px;
+	height: 282px;
+	background: url(../images/banner_bg.png);
+}
+
+.index-banner  div, 
+.index-banner a {
+	position: absolute;
+}
+
+.img-app {
+	top: 20px;
+	left: 20px;
+	width: 244px;
+	height: 200px;
+	background: url(../images/app_small.png);
+}
+
+.info-app {
+	top: 20px;
+	left: 300px;
+}
+
+.info-app h1 {
+	font-size: 30px;
+	color: blue;
+}
+
+.info-app h2{
+	font-size: 20px;
+	font-weight: normal;
+	color: blue;
+}
+
+.index-banner2 {
+	margin-bottom: 10px;
+}
+
+.index-banner2 p {
+	line-height: 25px;
+}
+
+.img-shengqian {
+	width: 200px;
+	height: 88px;
+	padding-left: 114px;
+	background: url(../images/save_money.png) no-repeat;
+}
+
+.img-qiangda {
+	width: 180px;
+	height: 88px;
+	padding-left: 140px;
+	background: url(../images/strong.png) no-repeat;
+}
+
+.img-fangbian {
+	width: 180px;
+	height: 88px;
+	padding-left: 140px;
+	background: url(../images/convenient.png) no-repeat;
+}
+
+.index-chongzhi {
+	margin-left: 50px;
+	margin-top: 30px;
+	height: 98px;
+	padding: 0 0 10px 100px;
+	background: url(../images/wallet_icon.png) no-repeat;
+	border-bottom: 1px solid #ccc;
+}
+
+.index-chongzhi-btn {
+	display: block;
+	width: 161px;
+	height: 18px;
+	background: url(../images/charge_button.png) no-repeat;
+	color: #e27a42;
+	padding: 52px 0 0 20px;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.index-kefu {
+	margin: 30px 0 0 50px;
+	height: 87px;
+	background: url(../images/hotline_icon.png) no-repeat;
+	padding: 10px 0 10px 110px;
+	border-bottom: 1px solid #ccc;	
+	color: #0f6134;
+	font-size: 16px;
+}
+
+.youhui-table {
+	width: 600px;
+	margin: 10px 0;
+	border: 1px solid #B1CDE3; 
+	border-collapse: collapse;  
+}
+
+.youhui-table thead {
+	background: #EAF7FD;
+	font-weight: bold;
+}
+
+.youhui-table td {
+	text-align: center;
+	border: 1px solid #B1CDE3; 
+	padding: 5px;
+}
+
+.flink {
+	width: 600px;
+}
+
+.flink ul li {
+	float: left;
+	margin: 10px 20px 0 0;
+	font-size: 16px;
+}
+
+.chongzhi-banner {
+	position: relative;
+	width: 960px;
+	height: 282px;
+	background: url(../images/banner_bg.png);
+}
+
+.chongzhi-gift {
+	width: 486px;
+	height: 236px;
+	background: url(../images/gift_img.png);
+}
+
+.chongzhi-banner a {
+	display: block;
+	position: absolute;
+}
+
+.chongzhi50 {
+	top: 10px;
+	left: 500px;
+	width: 81px;
+	height: 34px;
+	background: url(../images/charge_50.png);
+}
+
+.chongzhi100 {
+	top: 60px;
+	left: 520px;
+	width: 112px;
+	height: 38px;
+	background: url(../images/charge_100.png);
+}
+
+.chongzhi200 {
+	top: 120px;
+	left: 550px;
+	width: 151px;
+	height: 43px;
+	background: url(../images/charge_200.png);
+}
+
+.chongzhi500 {
+	top: 180px;
+	left: 600px;
+	width: 177px;
+	height: 48px;
+	background: url(../images/charge_500.png);
+}
+
+.download-btn {
+	display: block;
+	top: 10px;
+	right: 0;
+	width: 248px;
+	height: 83px;
+	background: url(../images/android_download_bt.png);
+}
+
+.chongzhi-notice {
+	width: 260px;
+}
+
+.chongzhi-item {
+	margin: 10px auto;
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #ccc;
+	overflow: auto;
+}
+
+.chongzhi-item h1{
+	float: left;
+	line-height: 50px;
+}
+
+.chongzhi-btn {
+	display: block;
+	float: right;
+	width: 161px;
+	height: 51px;
+	background: url(../images/charge_button.png);
+}
+
+.youhui-icon {
+	float: left;
+	margin-right: 10px;
+	width: 50px;
+	height: 49px;
+	background: url(../images/gift_small_icon.png) no-repeat;
+}
+
+.fee-banner {
+	width: 960px;
+	height: 220px;
+	background: url(../images/3fen.png);
+}
+
+.fee-notice {
+	width: 266px;
+	height: 221px;
+	background: url(../images/notice_bg.png) no-repeat;
+	padding: 20px;
+}
+
+.fee-table {
+	width: 600px;
+	margin: 10px 0;
+	border: 1px solid #B1CDE3; 
+	border-collapse: collapse;  
+}
+
+.fee-table thead {
+	background: #EAF7FD;
+	font-weight: bold;
+}
+
+.fee-table td {
+	text-align: center;
+	border: 1px solid #B1CDE3; 
+	padding: 5px;
+}
+
+.usage-steps {
+	width: 960px;
+	height: 222px;
+	margin-top: 10px;
+	background: url(../images/step_intro_bg.png);
+}
+
+.faq-list {
+	margin-top: 10px;
+}
+
+.faq-list ul li{
+	margin: 5px 0;
+}
+
+.faq-list ul li a {
+	font-size: 16px;
+}
+
+.faq-list ul li span {
+	float: right;
+}
+
+.arc-box {
+	margin: 10px 30px 0 0;
+}
+
+.arc-title,
+.arc-meta {
+	text-align: center;
+}
+
+.arc-meta {
+	color: #666;
+    overflow: hidden;	
+}
+
+.arc-meta span {
+    color: #999;
+	margin: 0 5px;
+}
+
+.arc-body {
+	margin: 20px 0;
+}
+
+.arc-hotlist {
+	margin: 10px 0 0 30px;
+}
+
+.arc-hotlist ul {
+	list-style: none;
+}
+
+
