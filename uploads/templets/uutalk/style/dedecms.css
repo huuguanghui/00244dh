@@ -289,6 +289,7 @@ input,select,button{
 	overflow:hidden;
 	height: 28px;
 	padding:8px 0 0 15px;
+        background: url(../images/navi_bg.png) repeat-x;
 }
 #navMenu ul {
 	float:left;
