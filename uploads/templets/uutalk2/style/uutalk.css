@@ -59,10 +59,10 @@ a {
 }
 
 .logo {
-	width: 218px;
-	height: 105px;
+	width: 145px;
+	height: 70px;
 	margin: 0 0 10px 0;
-	background: url(../images/logo.png);
+	background: url(../images/logo_s1.png);
 }
 
 .nav-bar {
@@ -398,8 +398,42 @@ a {
 	margin: 10px 0 0 30px;
 }
 
-.arc-hotlist ul {
+.arc-hotlist ul,
+.hezuo-content ul,
+.hezuo-contact ul {
 	list-style: none;
 }
+
+.hezuo-content h3 {
+	color: #FF9000;
+	margin-bottom: 10px;
+}
+
+.hezuo-list ul li {
+	width: 200px;
+	height: 260px;
+	padding: 13px;
+	margin: 10px 10px 0 0;
+	border: 1px solid #FFDA60;
+	background: url(../images/hezuo-bg.gif);
+	float: left
+}
+
+.hezuo-contact {
+	margin-top: 20px;
+}
+
+.hezuo-contact p {
+	line-height: 30px;
+	padding: 15px;
+	margin: 10px 10px 0 0;
+	background: url(../images/hezuo-bg.gif) 0px -200px;
+	border: 1px solid #FFDA60;
+}
+
+.hezuo-contact span {
+	margin: 10px 30px 0 0;
+}
+
 
 

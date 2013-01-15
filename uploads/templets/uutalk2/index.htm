@@ -51,30 +51,14 @@
 					</tr>
 				</thead>
 				<tbody>
+               {dede:loop table='dede_diyform1' sort='' row='8' if='ifcheck'}
 					<tr>
-						<td>￥50</td>
-						<td class="green">￥20</td>
-						<td class="red">￥70</td>
-						<td><a>立刻充值</a></td>
-					</tr>
-					<tr>
-						<td>￥100</td>
-						<td class="green">￥60</td>
-						<td class="red">￥160</td>
-						<td><a>立刻充值</a></td>
+						<td>￥[field:rechargemoney/]</td>
+						<td class="green">￥[field:presentmoney/]</td>
+						<td class="red">￥[field:actualmount/]</td>
+						<td><a href="http://www.uu-talk.com/angola/deposite">立刻充值</a></td>
 					</tr>	
-					<tr>
-						<td>￥200</td>
-						<td class="green">￥200</td>
-						<td class="red">￥400</td>
-						<td><a>立刻充值</a></td>
-					</tr>
-					<tr>
-						<td>￥500</td>
-						<td class="green">￥600</td>
-						<td class="red">￥1100</td>
-						<td><a>立刻充值</a></td>
-					</tr>	
+				{/dede:loop}
 				</tbody>
 			</table>
 			<h1>合作伙伴</h1>
@@ -87,7 +71,7 @@
 				<a class="index-chongzhi-btn left" href="/a/chongzhizhongxin/">现在充值送大礼</a>
 			</div>
 			<div class="index-kefu">
-				<h1>客服热线：<br/>13813005146</h1>
+				<h1>客服QQ：<br/>1622122511</h1>
 			</div>
 		</div>
 	</div>
