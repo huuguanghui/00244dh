@@ -1,3 +1,4 @@
 uploads/data/*
-./uploads/a/*
+uploads/a/*
+*.txt
 
