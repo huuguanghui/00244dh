@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link href="{dede:global.cfg_templets_skin/}/style/uutalk.css" rel="stylesheet" media="screen" type="text/css" />
+</head>
+<body>
+{dede:include filename="header.htm"/}
+<div class="content w960">
+	<div class="fee-banner"></div>
+	<div class="fee-notice left">
+		<h1>说明</h1>
+		<p>直拨是通过安装在手机上的UU-Talk客户端软件向被叫号码发起呼叫，
+		   只有一路呼叫，所以话费比较便宜。</p>
+		<p>回拨是由UU-Talk的服务器分别向主叫和被叫发起呼叫，将两路
+		   电话通过我们的服务器中转进行接通，需要发起两路呼叫，
+		   所以话费比较贵。</p>		   
+	</div>
+	<div class="fee-rate right w600">
+		{dede:sql sql="select body from dede_sgpage where likeid='rate'"}
+         [field:body/]
+        {/dede:sql}
+	</div>
+</div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>

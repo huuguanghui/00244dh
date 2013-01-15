@@ -30,16 +30,14 @@
 				</tr>
 			</thead>
 			<tbody>
+			{dede:loop table='dede_diyform_directdial' sort='' row='8' if='ifcheck'}
 				<tr>
-					<td>86</td>
-					<td>中国</td>
-					<td>0.07</td>
+					<td>[field:countrycode/]</td>
+					<td>[field:countryname/]</td>
+					<td>[field:rate runphp='yes'] @me=number_format(@me,2);[/field:rate]</td>
 				</tr>
-				<tr>
-					<td>244</td>
-					<td>安哥拉</td>
-					<td>1.60</td>
-				</tr>				
+			{/dede:loop}
+				
 			</tbody>
 		</table>
 		
@@ -53,26 +51,14 @@
 				</tr>
 			</thead>
 			<tbody>
+			{dede:loop table='dede_diyform_callback' sort='' row='8' if='ifcheck'}
 				<tr>
-					<td>86（中国）</td>
-					<td>86（中国）</td>
-					<td>0.07</td>
-				</tr>			
-				<tr>
-					<td>86（中国）</td>
-					<td>244（安哥拉）</td>
-					<td>0.07</td>
+					<td>[field:dialing/]</td>
+					<td>[field:called/]</td>
+					<td>[field:rate runphp='yes']@me=number_format(@me,2);[/field:rate]</td>
 				</tr>
-				<tr>
-					<td>244（安哥拉）</td>
-					<td>86（中国）</td>
-					<td>0.07</td>
-				</tr>
-				<tr>
-					<td>244（安哥拉）</td>
-					<td>244（安哥拉）</td>
-					<td>0.07</td>
-				</tr>
+			{/dede:loop}
+				
 			</tbody>
 		</table>		
 	</div>
