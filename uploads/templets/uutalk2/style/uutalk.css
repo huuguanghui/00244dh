@@ -21,6 +21,10 @@ a {
 	color: #08c;
 }
 
+.hidden {
+	display: none;
+}
+
 .w960 {
 	width: 960px;
 	margin: auto;
@@ -78,7 +82,7 @@ a {
 
 .nav-bar ul li {
 	float: left;
-	margin: 20px;
+	margin: 10px 20px;
 	font-size: 20px;
 }
 
@@ -228,7 +232,7 @@ a {
 .chongzhi-banner {
 	position: relative;
 	width: 960px;
-	height: 282px;
+	height: 240px;
 	background: url(../images/banner_bg.png);
 }
 
@@ -284,37 +288,77 @@ a {
 	background: url(../images/android_download_bt.png);
 }
 
-.chongzhi-notice {
-	width: 260px;
+label {
+	font-size: 18px;
+	margin: 0 10px 0 0;
 }
 
-.chongzhi-item {
-	margin: 10px auto;
-	padding: 20px;
-	background: #fff;
-	border: 1px solid #ccc;
-	overflow: auto;
+select {
+	height: 30px;
+	padding: 4px 6px;
+	line-height: 30px;
 }
 
-.chongzhi-item h1{
-	float: left;
-	line-height: 50px;
+input[type="text"] {
+	height: 20px;
+	padding: 4px 6px;
+	line-height: 20px;
 }
 
-.chongzhi-btn {
-	display: block;
-	float: right;
-	width: 161px;
-	height: 51px;
-	background: url(../images/charge_button.png);
+input[type="radio"] {
+	margin: 0 5px 0 0;
+	cursor: pointer;
 }
 
-.youhui-icon {
-	float: left;
-	margin-right: 10px;
-	width: 50px;
-	height: 49px;
-	background: url(../images/gift_small_icon.png) no-repeat;
+.chongzhi-form-field {
+	margin: 10px 0;
+	padding: 10px 15px;
+	border: 1px solid #FFDA60;
+	background: url(../images/hezuo-bg.gif);
+}
+
+#iptCountryCodeSelect {
+	margin-right: 50px;
+}
+
+#divDepositeType {
+	height: 260px;
+}
+
+#divDepositeTypeList {
+	margin: 10px 0;
+}
+
+#divDepositeTypeList span {
+	margin-right: 40px;
+	font-size: 16px;
+}
+
+#divDepositeType h3, 
+#divDepositeType p{
+	color: #FF9000;
+	height: 30px;
+	line-height: 30px;	
+}
+
+#divDepositeSubmit {
+	text-align: center;
+}
+
+.youhui-item {
+	margin: 5px 0 0 0;
+}
+
+#divUUTalkPanel label {
+	font-size: 16px;
+}
+
+#iptDepositeSubmit {
+	width: 233px;
+	height: 53px;
+	border: none;
+	cursor: pointer;
+	background: url(../images/deposite_submit.png);
 }
 
 .fee-banner {
@@ -433,6 +477,8 @@ a {
 .hezuo-contact span {
 	margin: 10px 30px 0 0;
 }
+
+
 
 
 
