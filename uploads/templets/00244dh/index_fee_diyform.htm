@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link href="{dede:global.cfg_templets_skin/}/style/uutalk.css" rel="stylesheet" media="screen" type="text/css" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37864313-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+{dede:include filename="header.htm"/}
+<div class="content w960">
+	<div class="fee-banner"></div>
+	<div class="fee-notice left">
+		<h1>说明</h1>
+		<p>直拨是通过安装在手机上的UU-Talk客户端软件向被叫号码发起呼叫，
+		   只有一路呼叫，所以话费比较便宜。</p>
+		<p>回拨是由UU-Talk的服务器分别向主叫和被叫发起呼叫，将两路
+		   电话通过我们的服务器中转进行接通，需要发起两路呼叫，
+		   所以话费比较贵。</p>		   
+	</div>
+	<div class="fee-rate right">
+		<h1>直拨费率表</h1>
+		<table class="fee-table w600">
+			<thead>
+				<tr>
+					<td>国家区域代码</td>
+					<td>国家区域名称</td>
+					<td>费率（元/分钟）</td>
+				</tr>
+			</thead>
+			<tbody>
+			{dede:loop table='dede_diyform_directdial' sort='' row='8' if='ifcheck'}
+				<tr>
+					<td>[field:countrycode/]</td>
+					<td>[field:countryname/]</td>
+					<td>[field:rate runphp='yes'] @me=number_format(@me,2);[/field:rate]</td>
+				</tr>
+			{/dede:loop}
+				
+			</tbody>
+		</table>
+		
+		<h1>回拨费率表</h1>
+		<table class="fee-table w600">
+			<thead>
+				<tr>
+					<td>主叫号码所在地</td>
+					<td>被叫号码所在地</td>
+					<td>费率（元/分钟）</td>
+				</tr>
+			</thead>
+			<tbody>
+			{dede:loop table='dede_diyform_callback' sort='' row='8' if='ifcheck'}
+				<tr>
+					<td>[field:dialing/]</td>
+					<td>[field:called/]</td>
+					<td>[field:rate runphp='yes']@me=number_format(@me,2);[/field:rate]</td>
+				</tr>
+			{/dede:loop}
+				
+			</tbody>
+		</table>		
+	</div>
+</div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>

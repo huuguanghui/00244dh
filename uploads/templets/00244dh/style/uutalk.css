@@ -1,0 +1,484 @@
+﻿@import url("picround.css");
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(../images/bg.png);
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: #333;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: normal; 
+}
+
+a {
+	text-decoration: none;
+	color: #08c;
+}
+
+.hidden {
+	display: none;
+}
+
+.w960 {
+	width: 960px;
+	margin: auto;
+}
+
+.w360 {
+	width: 360px;
+}
+
+.w600 {
+	width: 600px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	overflow: auto;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.header {
+	margin-top: 10px
+}
+
+.logo {
+	width: 145px;
+	height: 70px;
+	margin: 0 0 10px 0;
+	background: url(../images/logo_s1.png);
+}
+
+.nav-bar {
+	background: url(../images/navi_bg.png);
+	overflow: auto;
+}
+
+.nav-bar ul ,
+.flink ul,
+.faq-list ul {
+	list-style: none;
+}
+
+.nav-bar ul li {
+	float: left;
+	margin: 10px 20px;
+	font-size: 20px;
+}
+
+.nav-bar ul li a {
+	color: #DDD;
+}
+
+.nav-bar ul li a:hover {
+	color: #FFF;
+}
+
+.content {
+	padding: 10px;
+	overflow: auto;
+}
+
+.footer {
+	margin: 10px auto;
+	padding: 10px;
+	border-top: 1px solid #ccc;
+	text-align: center;
+}
+
+.index-banner {
+	position: relative;
+	width: 960px;
+	height: 282px;
+	background: url(../images/banner_bg.png);
+}
+
+.index-banner  div, 
+.index-banner a {
+	position: absolute;
+}
+
+.img-app {
+	top: 20px;
+	left: 20px;
+	width: 244px;
+	height: 200px;
+	background: url(../images/app_small.png);
+}
+
+.info-app {
+	top: 20px;
+	left: 300px;
+}
+
+.info-app h1 {
+	font-size: 30px;
+	color: blue;
+}
+
+.info-app h2{
+	font-size: 20px;
+	font-weight: normal;
+	color: blue;
+}
+
+.index-banner2 {
+	margin-bottom: 10px;
+}
+
+.index-banner2 p {
+	line-height: 25px;
+}
+
+.img-shengqian {
+	width: 200px;
+	height: 88px;
+	padding-left: 114px;
+	background: url(../images/save_money.png) no-repeat;
+}
+
+.img-qiangda {
+	width: 180px;
+	height: 88px;
+	padding-left: 140px;
+	background: url(../images/strong.png) no-repeat;
+}
+
+.img-fangbian {
+	width: 180px;
+	height: 88px;
+	padding-left: 140px;
+	background: url(../images/convenient.png) no-repeat;
+}
+
+.index-chongzhi {
+	margin-left: 50px;
+	margin-top: 30px;
+	height: 98px;
+	padding: 0 0 10px 100px;
+	background: url(../images/wallet_icon.png) no-repeat;
+	border-bottom: 1px solid #ccc;
+}
+
+.index-chongzhi-btn {
+	display: block;
+	width: 161px;
+	height: 18px;
+	background: url(../images/charge_button.png) no-repeat;
+	color: #e27a42;
+	padding: 52px 0 0 20px;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.index-kefu {
+	margin: 30px 0 0 50px;
+	height: 87px;
+	background: url(../images/hotline_icon.png) no-repeat;
+	padding: 10px 0 10px 110px;
+	border-bottom: 1px solid #ccc;	
+	color: #0f6134;
+	font-size: 16px;
+}
+
+.youhui-table {
+	width: 600px;
+	margin: 10px 0;
+	border: 1px solid #B1CDE3; 
+	border-collapse: collapse;  
+}
+
+.youhui-table thead {
+	background: #EAF7FD;
+	font-weight: bold;
+}
+
+.youhui-table td {
+	text-align: center;
+	border: 1px solid #B1CDE3; 
+	padding: 5px;
+}
+
+.flink {
+	width: 600px;
+}
+
+.flink ul li {
+	float: left;
+	margin: 10px 20px 0 0;
+	font-size: 16px;
+}
+
+.chongzhi-banner {
+	position: relative;
+	width: 960px;
+	height: 240px;
+	background: url(../images/banner_bg.png);
+}
+
+.chongzhi-gift {
+	width: 486px;
+	height: 236px;
+	background: url(../images/gift_img.png);
+}
+
+.chongzhi-banner a {
+	display: block;
+	position: absolute;
+}
+
+.chongzhi50 {
+	top: 10px;
+	left: 500px;
+	width: 81px;
+	height: 34px;
+	background: url(../images/charge_50.png);
+}
+
+.chongzhi100 {
+	top: 60px;
+	left: 520px;
+	width: 112px;
+	height: 38px;
+	background: url(../images/charge_100.png);
+}
+
+.chongzhi200 {
+	top: 120px;
+	left: 550px;
+	width: 151px;
+	height: 43px;
+	background: url(../images/charge_200.png);
+}
+
+.chongzhi500 {
+	top: 180px;
+	left: 600px;
+	width: 177px;
+	height: 48px;
+	background: url(../images/charge_500.png);
+}
+
+.download-btn {
+	display: block;
+	top: 10px;
+	right: 0;
+	width: 248px;
+	height: 83px;
+	background: url(../images/android_download_bt.png);
+}
+
+label {
+	font-size: 18px;
+	margin: 0 10px 0 0;
+}
+
+select {
+	height: 30px;
+	padding: 4px 6px;
+	line-height: 30px;
+}
+
+input[type="text"] {
+	height: 20px;
+	padding: 4px 6px;
+	line-height: 20px;
+}
+
+input[type="radio"] {
+	margin: 0 5px 0 0;
+	cursor: pointer;
+}
+
+.chongzhi-form-field {
+	margin: 10px 0;
+	padding: 10px 15px;
+	border: 1px solid #FFDA60;
+	background: url(../images/hezuo-bg.gif);
+}
+
+#iptCountryCodeSelect {
+	margin-right: 50px;
+}
+
+#divDepositeType {
+	height: 260px;
+}
+
+#divDepositeTypeList {
+	margin: 10px 0;
+}
+
+#divDepositeTypeList span {
+	margin-right: 40px;
+	font-size: 16px;
+}
+
+#divDepositeType h3, 
+#divDepositeType p{
+	color: #FF9000;
+	height: 30px;
+	line-height: 30px;	
+}
+
+#divDepositeSubmit {
+	text-align: center;
+}
+
+.youhui-item {
+	margin: 5px 0 0 0;
+}
+
+#divUUTalkPanel label {
+	font-size: 16px;
+}
+
+#iptDepositeSubmit {
+	width: 233px;
+	height: 53px;
+	border: none;
+	cursor: pointer;
+	background: url(../images/deposite_submit.png);
+}
+
+.fee-banner {
+	width: 960px;
+	height: 220px;
+	background: url(../images/3fen.png);
+}
+
+.fee-notice {
+	width: 266px;
+	height: 221px;
+	background: url(../images/notice_bg.png) no-repeat;
+	padding: 20px;
+}
+
+.fee-table {
+	margin: 10px 0;
+	border: 1px solid #B1CDE3; 
+	border-collapse: collapse;  
+}
+
+.fee-table thead {
+	background: #EAF7FD;
+	font-weight: bold;
+}
+
+.fee-table td {
+	text-align: center;
+	border: 1px solid #B1CDE3; 
+	padding: 5px;
+}
+
+.usage-steps {
+	width: 960px;
+	height: 222px;
+	margin-top: 10px;
+	background: url(../images/step_intro_bg.png);
+}
+
+.faq-list {
+	margin-top: 10px;
+}
+
+.faq-list ul li{
+	margin: 5px 0;
+}
+
+.faq-list ul li a {
+	font-size: 16px;
+}
+
+.faq-list ul li span {
+	float: right;
+}
+
+.arc-box {
+	margin: 10px 30px 0 0;
+}
+
+.arc-title,
+.arc-meta {
+	text-align: center;
+}
+
+.arc-meta {
+	color: #666;
+    overflow: hidden;	
+}
+
+.arc-meta span {
+    color: #999;
+	margin: 0 5px;
+}
+
+.arc-body {
+	margin: 20px 0;
+}
+
+.arc-hotlist {
+	margin: 10px 0 0 30px;
+}
+
+.arc-hotlist ul,
+.hezuo-content ul,
+.hezuo-contact ul {
+	list-style: none;
+}
+
+.hezuo-content h3 {
+	color: #FF9000;
+	margin-bottom: 10px;
+}
+
+.hezuo-list ul li {
+	width: 200px;
+	height: 260px;
+	padding: 13px;
+	margin: 10px 10px 0 0;
+	border: 1px solid #FFDA60;
+	background: url(../images/hezuo-bg.gif);
+	float: left
+}
+
+.hezuo-contact {
+	margin-top: 20px;
+}
+
+.hezuo-contact p {
+	line-height: 30px;
+	padding: 15px;
+	margin: 10px 10px 0 0;
+	background: url(../images/hezuo-bg.gif) 0px -200px;
+	border: 1px solid #FFDA60;
+}
+
+.hezuo-contact span {
+	margin: 10px 30px 0 0;
+}
+
+
+
+
+
