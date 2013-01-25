@@ -58,10 +58,6 @@ a {
 	color: green;
 }
 
-.blue {
-	color: blue;
-}
-
 .header {
 	margin-top: 10px
 }
@@ -205,25 +201,22 @@ a {
 	font-size: 16px;
 }
 
-table {	
+.youhui-table {
+	width: 600px;
 	margin: 10px 0;
 	border: 1px solid #B1CDE3; 
 	border-collapse: collapse;  
 }
 
-thead {
+.youhui-table thead {
 	background: #EAF7FD;
 	font-weight: bold;
 }
 
-td {
+.youhui-table td {
 	text-align: center;
 	border: 1px solid #B1CDE3; 
 	padding: 5px;
-}
-
-.youhui-table {
-	width: 600px;
 }
 
 .flink {
@@ -307,6 +300,7 @@ select {
 }
 
 input[type="text"] {
+	height: 20px;
 	padding: 4px 6px;
 	line-height: 20px;
 }
@@ -378,6 +372,23 @@ input[type="radio"] {
 	height: 221px;
 	background: url(../images/notice_bg.png) no-repeat;
 	padding: 20px;
+}
+
+.fee-table {
+	margin: 10px 0;
+	border: 1px solid #B1CDE3; 
+	border-collapse: collapse;  
+}
+
+.fee-table thead {
+	background: #EAF7FD;
+	font-weight: bold;
+}
+
+.fee-table td {
+	text-align: center;
+	border: 1px solid #B1CDE3; 
+	padding: 5px;
 }
 
 .usage-steps {
@@ -467,39 +478,7 @@ input[type="radio"] {
 	margin: 10px 30px 0 0;
 }
 
-.azcard-h1 {
-	margin-bottom: 5px;
-	color: blue;
-}
-.sellers h1,
-.daili h1 {
-	color: #FF9000;
-}
 
-.azcard-banner {
-	width: 960px;
-	height: 305px;
-	background: url(../images/anzhongcard.jpg);
-}
-
-#iptAZCardSubmit {
-	width: 100px;
-	height: 34px;
-	cursor: pointer;
-	margin: 0 30px 0 10px;
-}
-
-.seller-table {
-	width: 580px;
-}
-
-.daili {
-	width: 300px;
-	padding: 13px;
-	margin: 10px 10px 0 0;
-	border: 1px solid #FFDA60;
-	background: url(../images/hezuo-bg.gif);
-}
 
 
 
