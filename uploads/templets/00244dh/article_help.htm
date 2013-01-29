@@ -6,19 +6,7 @@
 <meta name="description" content="{dede:global.cfg_description/}" />
 <meta name="keywords" content="{dede:global.cfg_keywords/}" />
 <link href="{dede:global.cfg_templets_skin/}/style/uutalk.css" rel="stylesheet" media="screen" type="text/css" />
-<script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-37864313-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 </head>
 <body>
 {dede:include filename="header.htm"/}
@@ -32,13 +20,7 @@
                         <script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}" type='text/javascript' language="javascript"></script>
 		</p>
 		<div class="arc-body">
-                    <p>{dede:field.body/}</p>
-                    <!--
-			<table width='100%'>
-				<tbody>
-					<tr><td>{dede:field.body/}</td></tr>
-				</tbody>
-			</table> -->
+		     {dede:field.body/}
 		</div>
 		<div class="arc-context">
 			<ul>
