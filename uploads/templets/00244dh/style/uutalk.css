@@ -146,6 +146,14 @@ a {
 	color: blue;
 }
 
+.qrcode {
+	background: url(../images/dwqrcode.jpg) no-repeat;
+	width: 120px;
+	top: 90px;
+	right: 60px;
+	padding: 120px 0 0 0;
+}
+
 .index-banner2 {
 	margin-bottom: 10px;
 }
